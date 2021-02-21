@@ -1,0 +1,6 @@
+module Pods_MjSons {
+  umbrella header "Pods-MjSons-umbrella.h"
+
+  export *
+  module * { export * }
+}
