@@ -1,7 +1,0 @@
-#Fri Feb 19 23:26:36 IST 2021
-base.0=/Users/bcm/Documents/untitled folder/MjSons/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
-path.1=classes2.dex
-renamed.1=classes2.dex
-path.0=classes.dex
-renamed.0=classes.dex
-base.1=/Users/bcm/Documents/untitled folder/MjSons/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes2.dex

@@ -50,11 +50,28 @@ class _Header extends Component {
               />
             ) : (
                 <View style={{ flexDirection: 'row', }}>
-                  <Image
+                  {/* <Image
                     source={require('../../assets/swarna-Home-Icon.png')}
                     style={{ height: hp(5.5), top: Platform.OS == 'ios' ? -3 : 5 }}
                     resizeMode={'contain'}
-                  />
+                  /> */}
+                  <View
+                    style={{
+                      width: wp(12.5),
+                      //backgroundColor: 'red',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                    }}>
+                    <Image
+                      source={require('../../assets/MJ-Home-Icon.png')}
+                      style={{
+                        height: hp(5.5),
+                        top: Platform.OS == 'ios' ? -3 : 0,
+                        marginRight: 8,
+                      }}
+                      resizeMode={'contain'}
+                    />
+                  </View>
                   <View style={{ marginLeft: 5, marginTop: Platform.OS == 'ios' ? 0 : 2 }}>
                     <Text
                       style={{

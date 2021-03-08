@@ -32,7 +32,7 @@ export default class FromDatePicker extends Component {
   };
 
   handleDatePicked(date) {
-    let d = moment(new Date(date).toISOString().slice(0, 10)).format('DD-MM-YYYY');
+    let d = moment(new Date(date).toISOString().slice(0, 10)).format('YYYY-MM-DD');
 
     this.setState({
       date: d,

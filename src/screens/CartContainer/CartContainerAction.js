@@ -45,9 +45,9 @@ import {
   CART_WEIGHT_DATA_RESET_REDUCER,
 } from '@redux/types';
 
-import {strings} from '@values/strings';
+import { strings } from '@values/strings';
 import axios from 'axios';
-import {urls} from '@api/urls';
+import { urls } from '@api/urls';
 import {
   Container,
   Tab,
@@ -94,12 +94,13 @@ export function getCartData(data) {
       .post(urls.CartData.url, data, header)
       .then(response => {
         if (response.data.ack === '1') {
+          console.log("getCartData", response.data);
           dispatch(onSuccess(response.data, CART_DATA_SUCCESS));
         } else {
           dispatch(onFailure(response.data.msg, CART_DATA_ERROR));
         }
       })
-      .catch(function(error) {
+      .catch(function (error) {
         dispatch(onFailure(strings.serverFailedMsg, CART_DATA_ERROR));
       });
   };
@@ -118,7 +119,7 @@ export function getWishlistData(data) {
           dispatch(onFailure(response.data.msg, WISHLIST_DATA_ERROR));
         }
       })
-      .catch(function(error) {
+      .catch(function (error) {
         dispatch(onFailure(strings.serverFailedMsg, WISHLIST_DATA_ERROR));
       });
   };
@@ -141,7 +142,7 @@ export function deleteCartWishListProduct(data) {
           );
         }
       })
-      .catch(function(error) {
+      .catch(function (error) {
         dispatch(
           onFailure(
             strings.serverFailedMsg,
@@ -166,7 +167,7 @@ export function getTotalCartCount(data) {
           dispatch(onFailure(response.data.msg, TOTAL_CART_COUNT_DATA_ERROR));
         }
       })
-      .catch(function(error) {
+      .catch(function (error) {
         dispatch(
           onFailure(strings.serverFailedMsg, TOTAL_CART_COUNT_DATA_ERROR),
         );
@@ -187,7 +188,7 @@ export function moveProduct(data) {
           dispatch(onFailure(response.data.msg, MOVE_PRODUCT_DATA_ERROR));
         }
       })
-      .catch(function(error) {
+      .catch(function (error) {
         dispatch(onFailure(strings.serverFailedMsg, MOVE_PRODUCT_DATA_ERROR));
       });
   };
@@ -208,7 +209,7 @@ export function clearAllCart(data) {
           dispatch(onFailure(response.data.msg, CLEAR_ALL_CART_DATA_ERROR));
         }
       })
-      .catch(function(error) {
+      .catch(function (error) {
         dispatch(onFailure(strings.serverFailedMsg, CLEAR_ALL_CART_DATA_ERROR));
       });
   };
@@ -228,7 +229,7 @@ export function clearAllWishList(data) {
           dispatch(onFailure(response.data.msg, CLEAR_ALL_WISHLIST_DATA_ERROR));
         }
       })
-      .catch(function(error) {
+      .catch(function (error) {
         dispatch(
           onFailure(strings.serverFailedMsg, CLEAR_ALL_WISHLIST_DATA_ERROR),
         );
@@ -251,7 +252,7 @@ export function updateEditedCartProduct(data) {
           dispatch(onFailure(response.data.msg, EDIT_CART_PRODUCT_DATA_ERROR));
         }
       })
-      .catch(function(error) {
+      .catch(function (error) {
         dispatch(
           onFailure(strings.serverFailedMsg, EDIT_CART_PRODUCT_DATA_ERROR),
         );
@@ -282,7 +283,7 @@ export function placeOrderFromCart(data) {
           dispatch(onFailure(response.data.msg, PLACE_ORDER_DATA_ERROR));
         }
       })
-      .catch(function(error) {
+      .catch(function (error) {
         dispatch(onFailure(strings.serverFailedMsg, PLACE_ORDER_DATA_ERROR));
       });
   };
@@ -292,8 +293,7 @@ export function getCartSummary(data) {
   return dispatch => {
     dispatch(showLoadingIndicator(CART_SUMMARY_DATA));
 
-    axios
-      .post(urls.CartSummery.url, data, header)
+    axios.post(urls.CartSummery.url, data, header)
       .then(response => {
         if (response.data.ack == '1') {
           dispatch(onSuccess(response.data, CART_SUMMARY_DATA_SUCCESS));
@@ -301,7 +301,7 @@ export function getCartSummary(data) {
           dispatch(onFailure(response.data.msg, CART_SUMMARY_DATA_ERROR));
         }
       })
-      .catch(function(error) {
+      .catch(function (error) {
         dispatch(onFailure(strings.serverFailedMsg, CART_SUMMARY_DATA_ERROR));
       });
   };
@@ -320,7 +320,7 @@ export function getCartWeight(data) {
           dispatch(onFailure(response.data.msg, CART_WEIGHT_DATA_ERROR));
         }
       })
-      .catch(function(error) {
+      .catch(function (error) {
         dispatch(onFailure(strings.serverFailedMsg, CART_WEIGHT_DATA_ERROR));
       });
   };

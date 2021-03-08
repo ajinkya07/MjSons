@@ -1,6 +1,6 @@
 export const strings = {
   appName: 'MJ & Sons',
-  appSubName: 'world class jewellery',
+  appSubName: 'Jewellers',
   //𝙶𝚞𝚛𝚞𝙰𝚙𝚙
   login: 'Log In',
   forgotPassText: 'Forgot Login Details?',

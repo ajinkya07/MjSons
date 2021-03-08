@@ -133,8 +133,8 @@ android {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
-        versionName "1.0"
-         multiDexEnabled true
+        versionName "1.0.0"
+        multiDexEnabled true
     }
     signingConfigs {
         release {
@@ -220,8 +220,8 @@ dependencies {
     } else {
         implementation jscFlavor
     }
-     implementation 'androidx.multidex:multidex:2.0.1'  // <-- for webview
-      implementation 'com.facebook.fresco:fresco:2.0.0'
+    implementation 'androidx.multidex:multidex:2.0.1'  // <-- for webview
+    implementation 'com.facebook.fresco:fresco:2.0.0'
     implementation 'com.facebook.fresco:animated-gif:2.0.0'
 }
 

@@ -1,4 +1,4 @@
-import React, {Component, useState} from 'react';
+import React, { Component, useState } from 'react';
 import {
   Image,
   SafeAreaView,
@@ -14,29 +14,29 @@ import {
   ActivityIndicator,
   Alert,
 } from 'react-native';
-import {Container, Header, Toast, Picker, Icon} from 'native-base';
+import { Container, Header, Toast, Picker, Icon } from 'native-base';
 import IconPack from '@login/IconPack';
 import EStyleSheet from 'react-native-extended-stylesheet';
 import FloatingLabelTextInput from '@floatingInputBox/FloatingLabelTextInput';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
 import _Text from '@text/_Text';
-import {color} from '@values/colors';
+import { color } from '@values/colors';
 import {
   getProductDetails,
   addToCartFromDetails,
 } from '@category/ProductDetailsAction';
-import {urls} from '@api/urls';
-import {strings} from '@values/strings';
+import { urls } from '@api/urls';
+import { strings } from '@values/strings';
 import Swiper from 'react-native-swiper';
 import Modal from 'react-native-modal';
 import FastImage from 'react-native-fast-image';
 import _CustomHeader from '@customHeader/_CustomHeader';
-import {parseInt} from 'lodash';
-import {getTotalCartCount} from '@homepage/HomePageAction';
+import { parseInt } from 'lodash';
+import { getTotalCartCount } from '@homepage/HomePageAction';
 import Theme from '../../values/Theme';
 import Carousel, {
   Pagination,
@@ -92,7 +92,7 @@ class ProductDetails extends React.Component {
   }
 
   componentDidMount = () => {
-    const {productItem, fromHome} = this.state;
+    const { productItem, fromHome } = this.state;
 
     if (fromHome) {
       const data = new FormData();
@@ -170,8 +170,7 @@ class ProductDetails extends React.Component {
   }
 
   async componentDidUpdate(prevProps, prevState) {
-    const {productDetailsData, addCartDetailsData} = this.props;
-    console.log('productDetailsData==>', productDetailsData);
+    const { productDetailsData, addCartDetailsData } = this.props;
     if (
       this.state.successProductDetailsVersion >
       prevState.successProductDetailsVersion
@@ -187,7 +186,7 @@ class ProductDetails extends React.Component {
 
           length:
             productDetailsData !== undefined &&
-            productDetailsData.data[0].length
+              productDetailsData.data[0].length
               ? productDetailsData.data[0].length
               : '',
 
@@ -279,11 +278,11 @@ class ProductDetails extends React.Component {
   }
 
   setCurrentPage = position => {
-    this.setState({currentPage: position});
+    this.setState({ currentPage: position });
   };
 
   renderScreen = (data, k) => {
-    const {productDetailsStateData} = this.state;
+    const { productDetailsStateData } = this.state;
     let url2 =
       urls.imageUrl +
       (productDetailsStateData !== undefined &&
@@ -299,17 +298,10 @@ class ProductDetails extends React.Component {
         }>
         <View key={k}>
           <FastImage
-            style={{height: hp(33), width: wp(100), backgroundColor: '#d7d7d7'}}
-            source={{uri: url2 + data}}
+            style={{ height: hp(33), width: wp(100), backgroundColor: '#d7d7d7' }}
+            source={{ uri: url2 + data }}
             resizeMode={FastImage.resizeMode.stretch}
           />
-
-          {/* <Image
-            source={{ uri: url2 + data }}
-            resizeMode='stretch'
-            style={{ height: hp(33), width: wp(100) }}
-            defaultSource={IconPack.APP_LOGO}
-          /> */}
         </View>
       </TouchableOpacity>
     );
@@ -325,7 +317,7 @@ class ProductDetails extends React.Component {
         {item ? (
           <Swiper
             removeClippedSubviews={false}
-            style={{flexGrow: 1}}
+            style={{ flexGrow: 1 }}
             autoplayTimeout={10}
             ref={swiper => {
               this.swiper = swiper;
@@ -367,14 +359,14 @@ class ProductDetails extends React.Component {
             )}
           </Swiper>
         ) : (
-          this.renderLoader()
-        )}
+            this.renderLoader()
+          )}
       </View>
     );
   };
 
   _renderItem = (data, k) => {
-    const {productDetailsStateData} = this.state;
+    const { productDetailsStateData } = this.state;
     let url2 =
       urls.imageUrl +
       (productDetailsStateData !== undefined &&
@@ -393,8 +385,8 @@ class ProductDetails extends React.Component {
         }>
         <View key={index}>
           <FastImage
-            style={{height: hp(38), width: wp(100), backgroundColor: '#d7d7d7'}}
-            source={{uri: url2 + item}}
+            style={{ height: hp(38), width: wp(100), backgroundColor: '#d7d7d7' }}
+            source={{ uri: url2 + item }}
             resizeMode={FastImage.resizeMode.contain}
           />
         </View>
@@ -403,12 +395,12 @@ class ProductDetails extends React.Component {
   };
 
   carausalView2 = bannerData => {
-    let {width, height} = Dimensions.get('window');
+    let { width, height } = Dimensions.get('window');
     let sliderWidth = width;
     let itemHeight = hp(33);
 
     return (
-      <View style={{marginBottom: -10}}>
+      <View style={{ marginBottom: -10 }}>
         <Carousel
           ref={c => (this._slider1Ref = c)}
           hasParallaxImages={true}
@@ -426,12 +418,12 @@ class ProductDetails extends React.Component {
           hasParallaxImages={true}
           enableMomentum={true}
           activeSlideOffset={2}
-          onSnapToItem={index => this.setState({slider1ActiveSlide: index})}
+          onSnapToItem={index => this.setState({ slider1ActiveSlide: index })}
         />
         <Pagination
           dotsLength={bannerData.length}
           activeDotIndex={this.state.slider1ActiveSlide}
-          containerStyle={{marginTop: -50}}
+          containerStyle={{ marginTop: -50 }}
           dotColor={'#303030'}
           dotStyle={{
             width: 10,
@@ -458,9 +450,9 @@ class ProductDetails extends React.Component {
         }}>
         <Image
           source={require('../../assets/gif/noData.gif')}
-          style={{height: hp(20), width: hp(20)}}
+          style={{ height: hp(20), width: hp(20) }}
         />
-        <Text style={{fontSize: 18, fontWeight: '400'}}>
+        <Text style={{ fontSize: 18, fontWeight: '400' }}>
           {strings.serverFailedMsg}
         </Text>
       </View>
@@ -495,8 +487,8 @@ class ProductDetails extends React.Component {
   };
 
   PickerDropDown = () => {
-    const {karatValue} = this.state;
-    const {allParameterData} = this.props;
+    const { karatValue } = this.state;
+    const { allParameterData } = this.props;
 
     let list = allParameterData && allParameterData.melting;
 
@@ -507,22 +499,22 @@ class ProductDetails extends React.Component {
             <Icon
               type="Feather"
               name="arrow-down"
-              style={{marginRight: hp(3), fontSize: 22}}
+              style={{ marginRight: hp(3), fontSize: 22 }}
             />
           }
           mode="dropdown"
-          style={{height: 50, width: wp(55)}}
+          style={{ height: 50, width: wp(55) }}
           selectedValue={karatValue}
           onValueChange={(itemValue, itemIndex) =>
             this.setSelectedValueKarat(itemValue)
           }>
           {list && list.length > 0
             ? list.map((listItem, index) => (
-                <Picker.Item
-                  label={listItem.melting_name.toString()}
-                  value={parseInt(`${listItem.id}`)}
-                />
-              ))
+              <Picker.Item
+                label={listItem.melting_name.toString()}
+                value={parseInt(`${listItem.id}`)}
+              />
+            ))
             : null}
         </Picker>
       </View>
@@ -536,8 +528,8 @@ class ProductDetails extends React.Component {
   };
 
   PickerPolishDropDown = () => {
-    const {polish} = this.state;
-    const {allParameterData} = this.props;
+    const { polish } = this.state;
+    const { allParameterData } = this.props;
 
     let list = allParameterData && allParameterData.polish;
 
@@ -548,22 +540,22 @@ class ProductDetails extends React.Component {
             <Icon
               type="Feather"
               name="arrow-down"
-              style={{marginRight: hp(3), fontSize: 22}}
+              style={{ marginRight: hp(3), fontSize: 22 }}
             />
           }
           mode="dropdown"
-          style={{height: 50, width: wp(55)}}
+          style={{ height: 50, width: wp(55) }}
           selectedValue={polish}
           onValueChange={(itemValue, itemIndex) =>
             this.setSelectedValuePolish(itemValue)
           }>
           {list && list.length > 0
             ? list.map((listItem, index) => (
-                <Picker.Item
-                  label={listItem.polish_type.toString()}
-                  value={parseInt(`${listItem.id}`)}
-                />
-              ))
+              <Picker.Item
+                label={listItem.polish_type.toString()}
+                value={parseInt(`${listItem.id}`)}
+              />
+            ))
             : null}
         </Picker>
       </View>
@@ -577,8 +569,8 @@ class ProductDetails extends React.Component {
   };
 
   PickerColorDropDown = () => {
-    const {karatValue, color} = this.state;
-    const {allParameterData} = this.props;
+    const { karatValue, color } = this.state;
+    const { allParameterData } = this.props;
 
     let list = allParameterData && allParameterData.color;
 
@@ -589,22 +581,22 @@ class ProductDetails extends React.Component {
             <Icon
               type="Feather"
               name="arrow-down"
-              style={{marginRight: hp(3), fontSize: 22}}
+              style={{ marginRight: hp(3), fontSize: 22 }}
             />
           }
           mode="dropdown"
-          style={{height: 50, width: wp(55)}}
+          style={{ height: 50, width: wp(55) }}
           selectedValue={color}
           onValueChange={(itemValue, itemIndex) =>
             this.setSelectedValueColor(itemValue)
           }>
           {list && list.length > 0
             ? list.map((listItem, index) => (
-                <Picker.Item
-                  label={listItem.color_type.toString()}
-                  value={parseInt(`${listItem.id}`)}
-                />
-              ))
+              <Picker.Item
+                label={listItem.color_type.toString()}
+                value={parseInt(`${listItem.id}`)}
+              />
+            ))
             : null}
         </Picker>
       </View>
@@ -622,8 +614,8 @@ class ProductDetails extends React.Component {
   };
 
   PickerToneDropDown = () => {
-    const {tone} = this.state;
-    const {allParameterData} = this.props;
+    const { tone } = this.state;
+    const { allParameterData } = this.props;
 
     let list = allParameterData && allParameterData.tone;
 
@@ -634,22 +626,22 @@ class ProductDetails extends React.Component {
             <Icon
               type="Feather"
               name="arrow-down"
-              style={{marginRight: hp(3), fontSize: 22}}
+              style={{ marginRight: hp(3), fontSize: 22 }}
             />
           }
           mode="dropdown"
-          style={{height: 50, width: wp(55)}}
+          style={{ height: 50, width: wp(55) }}
           selectedValue={tone}
           onValueChange={(itemValue, itemIndex) =>
             this.setSelectedValueTone(itemValue)
           }>
           {list && list.length > 0
             ? list.map((listItem, index) => (
-                <Picker.Item
-                  label={listItem.tone_type.toString()}
-                  value={parseInt(`${listItem.id}`)}
-                />
-              ))
+              <Picker.Item
+                label={listItem.tone_type.toString()}
+                value={parseInt(`${listItem.id}`)}
+              />
+            ))
             : null}
         </Picker>
       </View>
@@ -670,11 +662,11 @@ class ProductDetails extends React.Component {
             <Icon
               type="Feather"
               name="arrow-down"
-              style={{marginRight: hp(3), fontSize: 22}}
+              style={{ marginRight: hp(3), fontSize: 22 }}
             />
           }
           mode="dropdown"
-          style={{height: 50, width: wp(55)}}
+          style={{ height: 50, width: wp(55) }}
           selectedValue={this.state.weight}
           onValueChange={(itemValue, itemIndex) =>
             this.setSelectedValue(itemValue)
@@ -682,8 +674,8 @@ class ProductDetails extends React.Component {
           {/* <Picker.Item label={weight.toString()} value={parseInt(weight)} /> */}
           {weightList && weightList.length > 0
             ? weightList.map(wt => (
-                <Picker.Item label={wt.toString()} value={parseInt(`${wt}`)} />
-              ))
+              <Picker.Item label={wt.toString()} value={parseInt(`${wt}`)} />
+            ))
             : null}
         </Picker>
       </View>
@@ -698,19 +690,19 @@ class ProductDetails extends React.Component {
             <Icon
               type="Feather"
               name="arrow-down"
-              style={{marginRight: hp(3), fontSize: 22}}
+              style={{ marginRight: hp(3), fontSize: 22 }}
             />
           }
           mode="dropdown"
-          style={{height: 50, width: wp(55)}}
+          style={{ height: 50, width: wp(55) }}
           selectedValue={this.state.length}
           onValueChange={(itemValue, itemIndex) =>
             this.setSelectedLength(itemValue)
           }>
           {lengthList && lengthList.length > 0
             ? lengthList.map(lt => (
-                <Picker.Item label={lt.toString()} value={parseInt(`${lt}`)} />
-              ))
+              <Picker.Item label={lt.toString()} value={parseInt(`${lt}`)} />
+            ))
             : null}
         </Picker>
       </View>
@@ -816,7 +808,7 @@ class ProductDetails extends React.Component {
       weightArray,
       lengthArray,
     } = this.state;
-    const {allParameterData} = this.props;
+    const { allParameterData } = this.props;
 
     console.log('allParameterData==>', allParameterData);
 
@@ -839,7 +831,7 @@ class ProductDetails extends React.Component {
               androidStatusBarColor="default">
               <View style={styles.textViewStyle}>
                 <TouchableOpacity
-                  hitSlop={{top: 15, left: 15, right: 20, bottom: 15}}
+                  hitSlop={{ top: 15, left: 15, right: 20, bottom: 15 }}
                   onPress={() => this.props.navigation.goBack()}>
                   <Image
                     source={require('../../assets/image/Account/back_button.png')}
@@ -853,7 +845,7 @@ class ProductDetails extends React.Component {
                 <Animated.Text
                   style={[
                     styles.headerTextStyle,
-                    {color: '#303030', opacity: headerOpacity},
+                    { color: '#303030', opacity: headerOpacity },
                   ]}>
                   {productDetailsStateData.product_name}
                 </Animated.Text>
@@ -862,14 +854,14 @@ class ProductDetails extends React.Component {
 
             <AnimatedContent
               onScroll={Animated.event(
-                [{nativeEvent: {contentOffset: {y: this.scrollY}}}],
+                [{ nativeEvent: { contentOffset: { y: this.scrollY } } }],
                 {
                   useNativeDriver: true,
                 },
               )}
               scrollEventThrottle={10}>
               <SafeAreaView style={styles.safeAreaViewStyle}>
-                <View style={{flex: 1}}>
+                <View style={{ flex: 1 }}>
                   <View>
                     {this.carausalView2(productDetailsStateData.image_name)}
                   </View>
@@ -883,7 +875,7 @@ class ProductDetails extends React.Component {
                       borderTopRightRadius: 30,
                     }}>
                     <View style={styles.topTitleContainer}>
-                      <View style={{width: wp(73)}}>
+                      <View style={{ width: wp(73) }}>
                         <Text
                           style={{
                             color: 'white',
@@ -909,7 +901,7 @@ class ProductDetails extends React.Component {
                             source={require('../../assets/shopping-cart.png')}
                             style={[
                               styles.ImageStyle,
-                              {top: 2, width: hp(3.2)},
+                              { top: 2, width: hp(3.2) },
                             ]}
                           />
                         )}
@@ -920,7 +912,7 @@ class ProductDetails extends React.Component {
 
                     <View style={styles.quantityContainer}>
                       <View>
-                        <Text style={{...Theme.ffLatoRegular16, color: '#fff'}}>
+                        <Text style={{ ...Theme.ffLatoRegular16, color: '#fff' }}>
                           Quantity
                         </Text>
                       </View>
@@ -936,7 +928,7 @@ class ProductDetails extends React.Component {
                           editable={false}
                           style={styles.countTextInput}
                           keyboardType={'numeric'}
-                          onChangeText={count => this.setState({count})}
+                          onChangeText={count => this.setState({ count })}
                           value={String(this.state.count)}
                         />
                         <TouchableOpacity
@@ -956,7 +948,7 @@ class ProductDetails extends React.Component {
                       />
                       <TextInput
                         style={styles.remarksInput}
-                        onChangeText={remark => this.setState({remark})}
+                        onChangeText={remark => this.setState({ remark })}
                         value={String(this.state.remark)}
                         placeholder="Remarks"
                         placeholderTextColor="#fff"
@@ -966,7 +958,7 @@ class ProductDetails extends React.Component {
                     <View style={styles.descriptionContainer}>
                       <TouchableOpacity
                         disabled={true}
-                        // onPress={() => this.toggleDescriptionDetails()}
+                      // onPress={() => this.toggleDescriptionDetails()}
                       >
                         <View style={styles.descriptionRowContainer}>
                           <Text
@@ -985,9 +977,9 @@ class ProductDetails extends React.Component {
                       </TouchableOpacity>
                       {this.state.isHideDetail ? (
                         <>
-                          <View style={{marginTop: 0}}>
+                          <View style={{ marginTop: 0 }}>
                             <View style={styles.descriptionSubContainer}>
-                              <View style={{flexDirection: 'column'}}>
+                              <View style={{ flexDirection: 'column' }}>
                                 {productDetailsStateData.key_label.map(
                                   (key, i) => {
                                     return (
@@ -1004,7 +996,7 @@ class ProductDetails extends React.Component {
                                 )}
                               </View>
 
-                              <View style={{flexDirection: 'column'}}>
+                              <View style={{ flexDirection: 'column' }}>
                                 {productDetailsStateData.key_value.map(
                                   (value, j) => {
                                     return (
@@ -1027,6 +1019,7 @@ class ProductDetails extends React.Component {
                       ) : null}
 
                       <View style={styles.customerDetailTopborder} />
+
                       {/* <Text
                         style={{
                           color: '#000000',
@@ -1039,17 +1032,21 @@ class ProductDetails extends React.Component {
                       </Text> */}
 
                       {/* Melting */}
-                      <FloatingLabelTextInput
-                        label="size"
-                        value={this.state.sizeValue}
-                        onChangeText={this.handleSizeValueChange}
-                        resetValue=""
-                        width="100%"
-                        keyboardType="numeric"
-                        textInputRef=""
-                        onSubmitEditing={() => null}
-                        returnKeyType="next"
-                      />
+
+                      <View style={{ marginLeft: 10 }}>
+                        <FloatingLabelTextInput
+                          label="Size"
+                          value={this.state.sizeValue}
+                          onChangeText={this.handleSizeValueChange}
+                          resetValue=""
+                          width="95%"
+                          keyboardType="numeric"
+                          textInputRef=""
+                          onSubmitEditing={() => null}
+                          returnKeyType="next"
+                        />
+                      </View>
+
                       <View
                         style={{
                           flexDirection: 'row',
@@ -1240,8 +1237,8 @@ class ProductDetails extends React.Component {
             </AnimatedContent>
           </Container>
         ) : (
-          this.renderLoader()
-        )}
+            this.renderLoader()
+          )}
       </SafeAreaView>
     );
   }

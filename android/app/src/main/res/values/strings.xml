@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">MJ AND Sons</string>
+    <string name="app_name">MJ \u0026 Sons</string>
+    <!-- &amp; -->
 </resources>

@@ -303,7 +303,6 @@ class Customizable extends Component {
     var date1 = moment(timeStampDate, 'DD-MM-YYYY').valueOf();
     var date2 = moment(date, 'DD-MM-YYYY').valueOf();
 
-    console.log("this.state", this.state);
 
     if (imageData) {
       var photo = {
@@ -319,9 +318,6 @@ class Customizable extends Component {
 
     if (!netWeight) {
       this.showToast('Please enter net weight', 'danger');
-    }
-    else if (!length) {
-      this.showToast('Please enter length', 'danger');
     }
     else if (!quantity) {
       this.showToast('Please enter quantity', 'danger');

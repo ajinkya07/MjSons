@@ -54,6 +54,7 @@ class SearchProductGrid extends Component {
       gridData: [],
       page: 0,
       productInventoryId: '',
+      productInventoryId3: '',
       isProductImageModalVisibel: false,
       productImageToBeDisplayed: '',
       clickedLoadMore: false,
@@ -71,7 +72,7 @@ class SearchProductGrid extends Component {
 
       successProductAddToCartPlusOneVersion: 0,
       errorProductAddToCartPlusOneVersion: 0,
-      productInventoryId: '',
+
       successTotalCartCountVersion: 0,
       errorTotalCartCountVersion: 0,
 
@@ -256,6 +257,30 @@ class SearchProductGrid extends Component {
           text: addProductToWishlistData && addProductToWishlistData.msg,
           duration: 2500,
         });
+
+        var dex2 = this.state.gridData.findIndex(
+          item => item.product_inventory_id == this.state.productInventoryId3,
+        );
+
+        if (dex2 !== -1) {
+          if (addProductToWishlistData.data && addProductToWishlistData.data.quantity !== null) {
+            this.state.gridData[dex2].in_wishlist = parseInt(addProductToWishlistData.data.quantity);
+
+            this.setState({ in_wishlist: addProductToWishlistData.data.quantity },
+              () => {
+                console.log(JSON.stringify(this.state.gridData));
+              },
+            );
+          } else if (addProductToWishlistData.data == null) {
+            this.state.gridData[dex2].in_wishlist = parseInt(0);
+            this.setState({ in_wishlist: '0' },
+              () => {
+                console.log(JSON.stringify(this.state.gridData));
+              },
+            );
+          }
+        }
+
       }
     }
 
@@ -440,98 +465,64 @@ class SearchProductGrid extends Component {
               />
 
             </TouchableOpacity>
-            <View style={latestTextView}>
-              <View style={{ width: wp(15), marginLeft: 5 }}>
-                <_Text
-                  numberOfLines={1}
-                  fsSmall
-                  textColor={'#000000'}
-                  style={{ ...Theme.ffLatoRegular13 }}>
-                  Code :
-                </_Text>
+
+            <View
+              style={{
+                flexDirection: 'row',
+                justifyContent: 'space-between',
+                width: '100%',
+                paddingHorizontal: 6.5,
+                flex: 1,
+              }}>
+              <View style={{ flex: 1 }}>
+                {item.key.map((key, i) => {
+                  return (
+                    <_Text
+                      numberOfLines={1}
+                      fsSmall
+                      textColor={'#000000'}
+                      style={{ ...Theme.ffLatoRegular12 }}>
+                      {key.replace('_', ' ')}
+                    </_Text>
+                  );
+                })}
               </View>
-              <View
-                style={{
-                  marginRight: 8,
-                  width: wp(24),
-                  justifyContent: 'flex-end',
-                  alignItems: 'flex-end',
-                }}>
-                <_Text
-                  numberOfLines={1}
-                  fsPrimary
-                  textColor={'#000000'}
-                  style={{ ...Theme.ffLatoRegular12 }}>
-                  {item.value[0]}
-                </_Text>
+
+              <View style={{ flex: 1 }}>
+                {item.value.map((value, j) => {
+                  return (
+                    <_Text
+                      numberOfLines={1}
+                      fsPrimary
+                      //textColor={color.brandColor}
+                      textColor={'#000000'}
+                      style={{ ...Theme.ffLatoRegular12 }}>
+                      {value ? value : '-'}
+                    </_Text>
+                  );
+                })}
               </View>
             </View>
 
-            <View style={latestTextView2}>
-              <View style={{ width: wp(15), marginLeft: 5 }}>
-                <_Text
-                  numberOfLines={1}
-                  fsSmall
-                  textColor={'#000000'}
-                  style={{ ...Theme.ffLatoRegular13 }}>
-                  Gross Wt :
-                </_Text>
-              </View>
-              <View
-                style={{
-                  marginRight: 8,
-                  width: wp(24),
-                  justifyContent: 'flex-end',
-                  alignItems: 'flex-end',
-                }}>
-                <_Text
-                  numberOfLines={1}
-                  fsPrimary
-                  textColor={'#000000'}
-                  style={{ ...Theme.ffLatoRegular12 }}>
-                  {parseInt(item.value[1]).toFixed(2)}
-                </_Text>
-              </View>
-            </View>
-
-            <View style={latestTextView2}>
-              <View style={{ width: wp(15), marginLeft: 5 }}>
-                <_Text
-                  numberOfLines={1}
-                  fsSmall
-                  textColor={'#000000'}
-                  style={{ ...Theme.ffLatoRegular13 }}>
-                  Status :{' '}
-                </_Text>
-              </View>
-              <View
-                style={{
-                  marginRight: 10,
-                  width: wp(24),
-                  justifyContent: 'flex-end',
-                  alignItems: 'flex-end',
-                }}>
-                <_Text
-                  numberOfLines={1}
-                  fsPrimary
-                  textColor={color.brandColor}
-                  textColor={'#000000'}
-                  style={{ ...Theme.ffLatoRegular12 }}>
-                  {item.value[2]}
-                </_Text>
-              </View>
-            </View>
             <View style={border}></View>
 
             {item.quantity == 0 && (
               <View style={iconView}>
                 <TouchableOpacity
                   onPress={() => this.addProductToWishlist(item)}>
-                  <Image
-                    source={require('../../../assets/Heart.png')}
-                    style={{ height: hp(3.1), width: hp(3) }}
-                    resizeMode="contain"
-                  />
+                  {item.in_wishlist == 0 ?
+                    <Image
+                      source={require('../../../assets/Heart-Ring.png')}
+                      style={{ height: hp(3.1), width: hp(3) }}
+                      resizeMode="contain"
+                    />
+                    : item.in_wishlist == 1 ?
+                      <Image
+                        source={require('../../../assets/Heart.png')}
+                        style={{ height: hp(3.1), width: hp(3) }}
+                        resizeMode="contain"
+                      />
+                      : null}
                 </TouchableOpacity>
                 <TouchableOpacity onPress={() => this.addProductToCart(item)}>
                   <Image
@@ -592,16 +583,9 @@ class SearchProductGrid extends Component {
 
     await this.props.addProductToWishlist(wishlistData);
 
-    //   const data1 = new FormData();
-    //   data1.append('table', 'product_master');
-    //   data1.append('mode_type', 'normal');
-    //   data1.append('collection_id', id);
-    //   data1.append('user_id', userId);
-    //   data1.append('record', 10);
-    //   data1.append('page_no', page);
-    //   data1.append('sort_by', selectedSortById);
-
-    //  await this.props.getProductSubCategoryData(data1);
+    this.setState({
+      productInventoryId3: item.product_inventory_id,
+    });
   };
 
   addProductToCart = async item => {

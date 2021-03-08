@@ -86,7 +86,6 @@ class HomePage extends Component {
 
   componentDidMount = async () => {
     const type = Platform.OS === 'ios' ? 'ios' : 'android';
-    console.log("userId", userId);
     await this.getHomePage()
     await this.getTotalCart()
 
@@ -262,6 +261,8 @@ class HomePage extends Component {
           duration: 2500,
         });
       }
+      await this.getHomePage()
+
     }
     if (this.state.errorAddToWishlistVersion > prevState.errorAddToWishlistVersion) {
       Toast.show({
@@ -306,7 +307,6 @@ class HomePage extends Component {
         });
       }
 
-      //  await this.getHomePage()
       await this.getTotalCart()
 
     }
@@ -354,7 +354,6 @@ class HomePage extends Component {
           duration: 2500,
         });
 
-        // await this.getHomePage()
         await this.getTotalCart()
       }
     }
@@ -455,7 +454,7 @@ class HomePage extends Component {
             baseUrl: baseUrl,
           })
         }>
-        <View key={index}>
+        <View key={'b' + index}>
           <Image style={{ height: height / 3 - 15, width: wp(100), }}
             source={{ uri: baseUrl + item.brand_image }}
             defaultSource={IconPack.APP_LOGO}
@@ -473,15 +472,14 @@ class HomePage extends Component {
     let itemHeight = height / 3;
 
     return (
-      <View style={{ marginBottom: -10 }}>
+      <View style={{ marginBottom: -10 }} >
         <Carousel
           ref={c => this._slider1Ref = c}
-          hasParallaxImages={true}
           loop={true}
           loopClonesPerSide={2}
           autoplay={true}
-          autoplayDelay={1400}
-          autoplayInterval={8000}
+          autoplayDelay={1000}
+          autoplayInterval={5000}
           sliderWidth={sliderWidth}
           sliderHeight={itemHeight}
           itemWidth={sliderWidth}
@@ -492,7 +490,6 @@ class HomePage extends Component {
           enableMomentum={true}
           activeSlideOffset={2}
           onSnapToItem={(index) => this.setState({ slider1ActiveSlide: index })}
-
         />
         <Pagination
           dotsLength={bannerData.length}
@@ -526,7 +523,6 @@ class HomePage extends Component {
 
   categoryViewDesignNew = (item, index) => {
     let baseUrl = urls.imageUrl + 'public/backend/collection/';
-
     return (
       <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'space-between' }}>
 
@@ -558,7 +554,7 @@ class HomePage extends Component {
                   opacity: 0.40,
                 }} />
               <View style={{ position: 'absolute', width: wp(48), marginTop: 10, marginLeft: 10 }}>
-                <Text numberOfLines={1} style={{ textAlign: 'center', color: color.white, letterSpacing: 1.6, fontWeight: 'bold', fontSize: 22, }}>
+                <Text numberOfLines={2} style={{ textAlign: 'center', color: color.black, letterSpacing: 1.6, fontWeight: 'bold', fontSize: 20, }}>
                   {item.col_name}
                 </Text>
               </View>
@@ -594,7 +590,7 @@ class HomePage extends Component {
                   opacity: 0.40,
                 }} />
               <View style={{ position: 'absolute', width: wp(48), marginTop: hp(7), marginLeft: 10 }}>
-                <Text numberOfLines={1} style={{ textAlign: 'center', color: color.white, letterSpacing: 1.6, fontWeight: 'bold', fontSize: 22, }}>
+                <Text numberOfLines={2} style={{ textAlign: 'center', color: color.black, letterSpacing: 1.6, fontWeight: 'bold', fontSize: 20, }}>
                   {item.col_name}
                 </Text>
               </View>
@@ -633,7 +629,7 @@ class HomePage extends Component {
                   opacity: 0.40,
                 }} />
               <View style={{ position: 'absolute', width: wp(48), marginTop: 10, marginLeft: 10 }}>
-                <Text numberOfLines={1} style={{ textAlign: 'center', color: color.white, letterSpacing: 1.6, fontWeight: 'bold', fontSize: 22, }}>
+                <Text numberOfLines={2} style={{ textAlign: 'center', color: color.black, letterSpacing: 1.6, fontWeight: 'bold', fontSize: 20, }}>
                   {item.col_name}
                 </Text>
               </View>
@@ -671,7 +667,7 @@ class HomePage extends Component {
                   opacity: 0.40,
                 }} />
               <View style={{ position: 'absolute', width: wp(48), marginTop: hp(7), marginLeft: 10 }}>
-                <Text numberOfLines={1} style={{ textAlign: 'center', color: color.white, letterSpacing: 1.6, fontWeight: 'bold', fontSize: 22, }}>
+                <Text numberOfLines={2} style={{ textAlign: 'center', color: color.black, letterSpacing: 1.6, fontWeight: 'bold', fontSize: 20, }}>
                   {item.col_name}
                 </Text>
               </View>
@@ -797,16 +793,24 @@ class HomePage extends Component {
 
               {item.in_cart == 0 &&
                 <View style={iconView}>
-                  <TouchableOpacity
-                    onPress={() => this.addToWishlist(item)}>
-                    <Image
-                      source={require('../../assets/Heart.png')}
-                      style={{ height: hp(3), width: hp(3) }}
-                      resizeMode="contain"
-                    />
+                  <TouchableOpacity onPress={() => this.addToWishlist(item)}>
+                    {item.in_wish == 0 ?
+                      <Image
+                        source={require('../../assets/Heart-Ring.png')}
+                        style={{ height: hp(3), width: hp(3) }}
+                        resizeMode="contain"
+                      />
+                      :
+                      item.in_wish == 1 ?
+                        <Image
+                          source={require('../../assets/Heart.png')}
+                          style={{ height: hp(3), width: hp(3) }}
+                          resizeMode="contain"
+                        />
+                        : null}
                   </TouchableOpacity>
-                  <TouchableOpacity
-                    onPress={() => this.addToCart(item)}>
+
+                  <TouchableOpacity onPress={() => this.addToCart(item)}>
                     <Image
                       source={require('../../assets/Cart1.png')}
                       style={{ height: hp(3), width: hp(3) }}
@@ -877,6 +881,8 @@ class HomePage extends Component {
 
     await this.props.addToCart(cartData);
 
+    this.getTotalCart()
+
     this.setState({
       productId2: item.product_id,
     });
@@ -897,7 +903,6 @@ class HomePage extends Component {
 
     await this.props.addRemoveFromCartByOne(cart);
 
-    // await this.getHomePage()
 
     this.setState({
       productId: item.product_id,
@@ -917,6 +922,7 @@ class HomePage extends Component {
     cart1.append('plus', 0);
 
     await this.props.addRemoveFromCartByOne(cart1);
+    await this.getHomePage()
 
 
     this.setState({
@@ -1007,7 +1013,6 @@ class HomePage extends Component {
 
     const categoryData = homePageData && homePageData.collection ? homePageData.collection : []
 
-
     return (
       <View style={mainContainer}>
         <ScrollView
@@ -1020,13 +1025,14 @@ class HomePage extends Component {
           }
           showsVerticalScrollIndicator={false}>
 
+          {/* BANNERS  */}
 
           {this.carausalView2(bannerData)}
 
           {/* CATEGORY DESIGNS */}
           {categoryData &&
-            categoryData.map(item => (
-              <View style={{ top: -10, left: 2 }}>
+            categoryData.map((item, index) => (
+              <View style={{ top: -10, left: 2 }} key={'c' + index}>
                 {this.categoryViewDesignNew(item, item.position)}
               </View>
             ))}
@@ -1085,14 +1091,13 @@ class HomePage extends Component {
                 <ScrollView horizontal showsHorizontalScrollIndicator={false}>
                   {data.product_assign &&
                     data.product_assign.map((product, index) => (
-                      <View style={{ flexDirection: 'row' }}>
+                      <View style={{ flexDirection: 'row' }} key={'d' + index}>
                         {this.getProductDesigns(product)}
                       </View>
                     ))}
                 </ScrollView>
               </View>
             ))}
-
 
 
           {/*  IMAGE ON LONG PRESS */}
