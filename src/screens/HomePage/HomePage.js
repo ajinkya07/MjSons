@@ -520,7 +520,6 @@ class HomePage extends Component {
 
 
 
-
   categoryViewDesignNew = (item, index) => {
     let baseUrl = urls.imageUrl + 'public/backend/collection/';
     return (
@@ -553,7 +552,7 @@ class HomePage extends Component {
                   resizeMode: 'center',
                   opacity: 0.40,
                 }} />
-              <View style={{ position: 'absolute', width: wp(48), marginTop: 10, marginLeft: 10 }}>
+              <View style={{ position: 'absolute', width: wp(48), marginLeft: 10 }}>
                 <Text numberOfLines={2} style={{ textAlign: 'center', color: color.black, letterSpacing: 1.6, fontWeight: 'bold', fontSize: 20, }}>
                   {item.col_name}
                 </Text>
@@ -589,7 +588,7 @@ class HomePage extends Component {
                   resizeMode: 'center',
                   opacity: 0.40,
                 }} />
-              <View style={{ position: 'absolute', width: wp(48), marginTop: hp(7), marginLeft: 10 }}>
+              <View style={{ position: 'absolute', width: wp(48), marginTop: hp(8), marginLeft: 10 }}>
                 <Text numberOfLines={2} style={{ textAlign: 'center', color: color.black, letterSpacing: 1.6, fontWeight: 'bold', fontSize: 20, }}>
                   {item.col_name}
                 </Text>
@@ -628,7 +627,7 @@ class HomePage extends Component {
                   resizeMode: 'center',
                   opacity: 0.40,
                 }} />
-              <View style={{ position: 'absolute', width: wp(48), marginTop: 10, marginLeft: 10 }}>
+              <View style={{ position: 'absolute', width: wp(48), marginLeft: 10 }}>
                 <Text numberOfLines={2} style={{ textAlign: 'center', color: color.black, letterSpacing: 1.6, fontWeight: 'bold', fontSize: 20, }}>
                   {item.col_name}
                 </Text>
@@ -666,7 +665,7 @@ class HomePage extends Component {
                   resizeMode: 'center',
                   opacity: 0.40,
                 }} />
-              <View style={{ position: 'absolute', width: wp(48), marginTop: hp(7), marginLeft: 10 }}>
+              <View style={{ position: 'absolute', width: wp(48), marginTop: hp(8), marginLeft: 10 }}>
                 <Text numberOfLines={2} style={{ textAlign: 'center', color: color.black, letterSpacing: 1.6, fontWeight: 'bold', fontSize: 20, }}>
                   {item.col_name}
                 </Text>
@@ -674,7 +673,6 @@ class HomePage extends Component {
             </TouchableOpacity>
 
           </View>
-
         }
       </View>
     );

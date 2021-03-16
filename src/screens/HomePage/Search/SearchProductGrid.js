@@ -419,14 +419,13 @@ class SearchProductGrid extends Component {
     let url = urls.imageUrl + 'public/backend/product_images/thumb_image/'
 
     const { gridData } = this.state
-
     return (
       <TouchableOpacity
         onPress={() => this.props.navigation.navigate('ProductDetails', { productItemDetails: item, })}>
         <View
           style={{
             backgroundColor: color.white,
-            height: Platform.OS === 'android' ? hp(34) : hp(32),
+            // height: Platform.OS === 'android' ? hp(34) : hp(32),
             width: wp(46),
             marginHorizontal: hp(1),
             borderRadius: 15,
@@ -471,7 +470,7 @@ class SearchProductGrid extends Component {
                 flexDirection: 'row',
                 justifyContent: 'space-between',
                 width: '100%',
-                paddingHorizontal: 6.5,
+                padding: 6,
                 flex: 1,
               }}>
               <View style={{ flex: 1 }}>

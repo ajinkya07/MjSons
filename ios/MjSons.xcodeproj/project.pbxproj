@@ -13,7 +13,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		147DDFDF5A2A4EE089E34AA8 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F280102FA65149188237C54D /* Lato-Bold.ttf */; };
 		16684546B6544ED9B11CE7EF /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C50DAD945904763B6A66441 /* Lato-Medium.ttf */; };
-		17F6580225E4CE00002C3D04 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17F6580125E4CE00002C3D04 /* GoogleService-Info.plist */; };
+		17460F7725F66DB400148586 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17460F7625F66DB400148586 /* GoogleService-Info.plist */; };
 		17F6585C25E4CF78002C3D04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		1E949086986139D647D85DA7 /* libPods-MjSons-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8FA413D7A8D8D5313D68BE /* libPods-MjSons-tvOSTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -57,7 +57,8 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MjSons/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MjSons/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MjSons/main.m; sourceTree = "<group>"; };
-		17F6580125E4CE00002C3D04 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Documents/firebaseFiles/MJ&Sons/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		17460F7625F66DB400148586 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Documents/A_firebaseFiles/MJ&Sons/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		17FF123D25F9272E00090156 /* MjSons.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = MjSons.entitlements; path = MjSons/MjSons.entitlements; sourceTree = "<group>"; };
 		184D67C62D73477CBB137F29 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		1CFE7AD033A2405BB67360B5 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		23215AF90CE50AE46CF97744 /* Pods-MjSons-MjSonsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MjSons-MjSonsTests.release.xcconfig"; path = "Target Support Files/Pods-MjSons-MjSonsTests/Pods-MjSons-MjSonsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -155,13 +156,14 @@
 		13B07FAE1A68108700A75B9A /* MjSons */ = {
 			isa = PBXGroup;
 			children = (
+				17FF123D25F9272E00090156 /* MjSons.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
-				17F6580125E4CE00002C3D04 /* GoogleService-Info.plist */,
+				17460F7625F66DB400148586 /* GoogleService-Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = MjSons;
@@ -404,11 +406,11 @@
 			files = (
 				17F6585C25E4CF78002C3D04 /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				17F6580225E4CE00002C3D04 /* GoogleService-Info.plist in Resources */,
 				147DDFDF5A2A4EE089E34AA8 /* Lato-Bold.ttf in Resources */,
 				16684546B6544ED9B11CE7EF /* Lato-Medium.ttf in Resources */,
 				94F7C765C4B749FA8670FA27 /* Lato-Regular.ttf in Resources */,
 				96CF6A3EA08740A785474C82 /* Roboto_medium.ttf in Resources */,
+				17460F7725F66DB400148586 /* GoogleService-Info.plist in Resources */,
 				82DDEF1302934C8DA1629ED3 /* Roboto.ttf in Resources */,
 				BA1AAE52BD864BDA80F3D273 /* rubicon-icon-font.ttf in Resources */,
 			);
@@ -806,12 +808,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_ENTITLEMENTS = MjSons/MjSons.entitlements;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = ZAWGQ38PQJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MjSons/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -831,11 +834,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_ENTITLEMENTS = MjSons/MjSons.entitlements;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = ZAWGQ38PQJ;
 				INFOPLIST_FILE = MjSons/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

@@ -777,7 +777,7 @@ class ProductGrid extends Component {
                 flexDirection: 'row',
                 justifyContent: 'space-between',
                 width: '100%',
-                paddingHorizontal: 6.5,
+                padding: 6,
                 flex: 1,
               }}>
               <View style={{ flex: 1 }}>
@@ -800,7 +800,6 @@ class ProductGrid extends Component {
                     <_Text
                       numberOfLines={1}
                       fsPrimary
-                      //textColor={color.brandColor}
                       textColor={'#000000'}
                       style={{ ...Theme.ffLatoRegular12 }}>
                       {value ? value : '-'}
