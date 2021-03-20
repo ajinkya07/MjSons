@@ -8,7 +8,11 @@ import {
   SEARCH_BY_CODE_SUCCESS,
   SEARCH_BY_CODE_ERROR,
   SEARCH_BY_CODE_RESET_REDUCER,
+  SEARCH_COUNT,
+  SEARCH_COUNT_SUCCESS,
+  SEARCH_COUNT_ERROR,
 
+  SEARCH_PAYLOAD
 } from "@redux/types";
 
 import { strings } from '@values/strings'
@@ -49,7 +53,7 @@ export function searchProducts(data) {
     dispatch(showLoadingIndicator(SEARCH_BY_CATEGORY));
 
     axios.post(urls.SearchGrid.url, data, header).then(response => {
-      console.warn("response--", response);
+      console.warn("response searchProducts--", response.data);
       if (response.data.ack === '1') {
         dispatch(
           onSuccess(response.data, SEARCH_BY_CATEGORY_SUCCESS)
@@ -100,3 +104,33 @@ export function searchByCode(data) {
 }
 
 
+export function searchProductsCount(data) {
+  return dispatch => {
+    dispatch(showLoadingIndicator(SEARCH_COUNT));
+
+    axios.post(urls.SearchGrid.url, data, header).then(response => {
+      if (response.data.ack === '1') {
+        dispatch(
+          onSuccess(response.data, SEARCH_COUNT_SUCCESS)
+        )
+      }
+      else {
+        dispatch(
+          onFailure(response.data.msg, SEARCH_COUNT_ERROR)
+        )
+      }
+    })
+      .catch(function (error) {
+        console.log("error--", error.toString());
+        dispatch(
+          onFailure(strings.serverFailedMsg, SEARCH_COUNT_ERROR)
+        );
+      });
+  }
+}
+
+export function saveSearchPayload(data) {
+  return dispatch => {
+    dispatch(onSuccess(data, SEARCH_PAYLOAD));
+  }
+}
