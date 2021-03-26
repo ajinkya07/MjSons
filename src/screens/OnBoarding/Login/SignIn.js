@@ -95,8 +95,6 @@ class SignIn extends React.Component {
   async componentDidUpdate(prevProps, prevState) {
     if (this.state.successLoginVersion > prevState.successLoginVersion) {
       if (this.props.loginData.user_status === 'Available') {
-        // this.showToast('Login successfull', 'success');
-        // this.props.navigation.navigate('Container');
         this.sendFcmToken()
 
       } else {

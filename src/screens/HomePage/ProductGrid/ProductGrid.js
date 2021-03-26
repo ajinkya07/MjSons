@@ -497,6 +497,7 @@ class ProductGrid extends Component {
     }
 
     if (this.state.successAddProductToWishlistVersion > prevState.successAddProductToWishlistVersion) {
+      console.log("addProductToWishlistData", addProductToWishlistData);
       if (addProductToWishlistData.ack === '1') {
         Toast.show({
           text: addProductToWishlistData && addProductToWishlistData.msg,
@@ -546,6 +547,8 @@ class ProductGrid extends Component {
       this.state.successAddProductToCartVersion >
       prevState.successAddProductToCartVersion
     ) {
+      console.log("addProductToCartData", addProductToCartData);
+
       if (addProductToCartData.ack === '1') {
         var dex = this.state.gridData.findIndex(
           item => item.product_inventory_id == this.state.productInventoryId2,
@@ -599,6 +602,7 @@ class ProductGrid extends Component {
       this.state.successProductAddToCartPlusOneVersion >
       prevState.successProductAddToCartPlusOneVersion
     ) {
+      console.log("productAddToCartPlusOneData", productAddToCartPlusOneData);
       if (productAddToCartPlusOneData.ack === '1') {
         // var Index = _.findIndex(this.state.gridData, {
         //     product_inventory_id: parseInt(this.state.productInventoryId),

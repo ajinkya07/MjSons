@@ -321,7 +321,6 @@ class HomePage extends Component {
     }
 
     if (this.state.successAddToCartPlusOneVersion > prevState.successAddToCartPlusOneVersion) {
-
       if (addToCartPlusOneData.ack === '1') {
         var Index;
         var i;
@@ -525,7 +524,7 @@ class HomePage extends Component {
     return (
       <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'space-between' }}>
 
-        {index % 4 == 1 &&
+        {index % 4 == 0 &&
           <TouchableOpacity onPress={() => this.getProductGridOrNot(item)}>
             <View style={{
               justifyContent: 'center',
@@ -561,7 +560,7 @@ class HomePage extends Component {
           </TouchableOpacity>
         }
 
-        {index % 4 == 2 &&
+        {index % 4 == 1 &&
           <View style={{
             justifyContent: 'center',
             alignItems: 'center',
@@ -600,7 +599,7 @@ class HomePage extends Component {
         }
 
 
-        {index % 4 == 3 &&
+        {index % 4 == 2 &&
           <TouchableOpacity onPress={() => this.getProductGridOrNot(item)}>
             <View style={{
               justifyContent: 'center',
@@ -636,7 +635,7 @@ class HomePage extends Component {
           </TouchableOpacity>
         }
 
-        {index % 4 == 0 &&
+        {index % 4 == 3 &&
           <View style={{
             justifyContent: 'center',
             alignItems: 'center',
@@ -1031,7 +1030,7 @@ class HomePage extends Component {
           {categoryData &&
             categoryData.map((item, index) => (
               <View style={{ top: -10, left: 2 }} key={'c' + index}>
-                {this.categoryViewDesignNew(item, item.position)}
+                {this.categoryViewDesignNew(item, index)}
               </View>
             ))}
 
