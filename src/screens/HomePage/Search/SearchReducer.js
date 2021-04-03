@@ -74,7 +74,6 @@ export default function dataReducer(state = initialState, action) {
       };
 
     case SEARCH_BY_CODE_SUCCESS:
-      console.warn("action", action.data);
       return {
         ...state,
         errorMsgSearch: "",

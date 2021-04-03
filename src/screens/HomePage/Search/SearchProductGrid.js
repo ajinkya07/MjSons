@@ -25,7 +25,6 @@ import { urls } from '@api/urls'
 import IconPack from '@login/IconPack';
 
 import ProductGridStyle from '@productGrid/ProductGridStyle';
-// import {} from '@search/SearchAction';
 import {
   getProductSubCategoryData,
   addProductToWishlist,
@@ -92,7 +91,6 @@ class SearchProductGrid extends Component {
   componentDidMount = () => {
     const { searchByCategoryData } = this.props
     const { gridData, searchCount } = this.state
-    console.log("searchCount", searchCount);
     if (searchByCategoryData && searchByCategoryData.data.products && searchByCategoryData.data.products.length > 0) {
       this.setState({
         gridData: this.state.page === 0 ? searchByCategoryData.data.products
@@ -239,7 +237,6 @@ class SearchProductGrid extends Component {
       productAddToCartPlusOneData,
       totalCartCountData,
       searchByCategoryData
-
     } = this.props;
 
 
@@ -760,16 +757,6 @@ class SearchProductGrid extends Component {
 
 
     if (accessCheck == '1') {
-      // const data = new FormData();
-      // data.append('table', 'product_master');
-      // data.append('mode_type', 'normal');
-      // data.append('collection_id', id);
-      // data.append('user_id', userId);
-      // data.append('record', 10);
-      // data.append('page_no', page);
-      // data.append('sort_by', '6');
-
-      // this.props.getProductSubCategoryData(data);
       const s = new FormData()
       s.append('table', 'product_master')
       s.append('mode_type', 'filter_data')

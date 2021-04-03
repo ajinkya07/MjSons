@@ -509,9 +509,6 @@ class SearchScreen extends Component {
                 created_date_to: toDate ? toDate : '',
             }
             this.props.saveSearchPayload(payload)
-
-
-
         }
         else {
             this.showToast('Please select category')

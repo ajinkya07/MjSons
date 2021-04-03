@@ -810,7 +810,6 @@ class ProductDetails extends React.Component {
     } = this.state;
     const { allParameterData } = this.props;
 
-    console.log('allParameterData==>', allParameterData);
 
     let url =
       urls.imageUrl +
