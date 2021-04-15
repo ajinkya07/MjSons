@@ -152,8 +152,8 @@ class AccountContainer extends Component {
 
   showAppVersion = () => {
     Toast.show({
-      text: 'App version:  ' + '1.0.2',
-      duration: 3000,
+      text: 'App version:  ' + '1.0.3',
+      duration: 2000,
     });
   };
 
@@ -217,9 +217,6 @@ class AccountContainer extends Component {
   sentEmail = email => {
     Linking.openURL(`mailto:${email}?subject=write a subject`);
 
-    // this.setState({
-    //   accountEmailModal:false
-    // })
   };
 
   openSocialMediaModal = () => {
@@ -281,8 +278,9 @@ class AccountContainer extends Component {
 
     return (
       <View style={{ flex: 1, width: wp(100) }}>
-        <ScrollView showsVerticalScrollIndicator={false} bounces={false}>
-          <ImageBackground source={IconPack.LOGIN_BG} style={styles.bgImage}>
+        <ImageBackground source={IconPack.LOGIN_BG} style={styles.bgImage}>
+
+          <ScrollView showsVerticalScrollIndicator={false} bounces={false}>
             <View style={styles.topViewContainer}>
               <Image
                 style={styles.profileImageStyle}
@@ -306,19 +304,14 @@ class AccountContainer extends Component {
               onPress={() => this.props.navigation.navigate('CustomOrder')}
             />
             <AccountRow
-              title="Exclusive"
+              title="Ready Stock"
               icon={IconPack.EXCLUSIVE}
               onPress={() => this.props.navigation.navigate('Exclusive')}
             />
-            {/* <AccountRow
-              title="Catalog"
-              icon={IconPack.EXCLUSIVE}
-              onPress={() => this.props.navigation.navigate('CustomWebview', { link: catalog, title: 'Catalog' })}
-            /> */}
+
             <AccountRow
               title="About Us"
               icon={IconPack.ABOUT}
-              // onPress={() => Linking.openURL(aboutUS)}
               onPress={() =>
                 this.props.navigation.navigate('CustomWebview', {
                   link: aboutUS,
@@ -340,7 +333,6 @@ class AccountContainer extends Component {
             <AccountRow
               title="Terms & Conditions"
               icon={IconPack.ABOUT}
-              // onPress={() => Linking.openURL(terms)}
               onPress={() =>
                 this.props.navigation.navigate('CustomWebview', {
                   link: terms,
@@ -388,20 +380,116 @@ class AccountContainer extends Component {
               icon={IconPack.LOGOUT}
               onPress={() => this.setLogout()}
             />
-          </ImageBackground>
 
-          {/* CALL / EMAIL MODAL */}
-          <Modal
-            isVisible={this.state.accountEmailModal}
-            transparent={true}
-            onRequestClose={() => this.hideCallEmailModal()}
-            onBackdropPress={() => this.hideCallEmailModal()}
-            onBackButtonPress={() => this.hideCallEmailModal()}
-            style={{ margin: 0 }}>
-            <TouchableWithoutFeedback style={{ flex: 1 }} onPress={() => null}>
-              <>
-                <View style={styles.mainContainer}>
-                  <View style={styles.content}>
+            {/* CALL / EMAIL MODAL */}
+            <Modal
+              isVisible={this.state.accountEmailModal}
+              transparent={true}
+              onRequestClose={() => this.hideCallEmailModal()}
+              onBackdropPress={() => this.hideCallEmailModal()}
+              onBackButtonPress={() => this.hideCallEmailModal()}
+              style={{ margin: 0 }}>
+              <TouchableWithoutFeedback style={{ flex: 1 }} onPress={() => null}>
+                <>
+                  <View style={styles.mainContainer}>
+                    <View style={styles.content}>
+                      <View
+                        style={{
+                          flexDirection: 'row',
+                          justifyContent: 'space-between',
+                          backgroundColor: headerTheme
+                            ? '#' + headerTheme
+                            : '#303030',
+                        }}>
+                        <Text
+                          style={{
+                            color: '#FFFFFF',
+                            fontSize: 18,
+                            margin: Platform.OS === 'android' ? 12 : 15,
+                          }}>
+                          Call / Email Us
+                      </Text>
+                        <TouchableOpacity
+                          onPress={() =>
+                            this.setState({ accountEmailModal: false })
+                          }>
+                          <Image
+                            style={styles.closeIcon}
+                            source={IconPack.WHITE_CLOSE}
+                          />
+                        </TouchableOpacity>
+                      </View>
+
+                      <View style={styles.border}></View>
+
+                      <FlatList
+                        data={callEmailData.data}
+                        refreshing={this.props.isFetching}
+                        showsVerticalScrollIndicator={false}
+                        renderItem={({ item }) => (
+                          <View>
+                            <View style={styles.cityContainer}>
+                              <View style={styles.circleContainer}>
+                                <Text style={styles.circleText}>
+                                  {item.location.charAt(0).toUpperCase()}
+                                </Text>
+                              </View>
+
+                              <View style={styles.location}>
+                                <Text style={styles.locationText}>
+                                  {item.location}
+                                </Text>
+                              </View>
+                            </View>
+
+                            <View style={styles.addressContainer}>
+                              <Text style={styles.addressText}>
+                                Address : {item.address}
+                              </Text>
+                              <Text style={styles.emailText}>
+                                Email : {item.email}
+                              </Text>
+                            </View>
+
+                            <View style={styles.bottomContainer}>
+                              <TouchableOpacity
+                                onPress={() =>
+                                  this.showCallPopup(item.contact_number[0].phone)
+                                }>
+                                <Text style={styles.bottomText}>CALL</Text>
+                              </TouchableOpacity>
+                              <TouchableOpacity
+                                onPress={() => this.sentEmail(item.email)}>
+                                <Text style={styles.bottomText}>EMAIL</Text>
+                              </TouchableOpacity>
+                            </View>
+
+                            {/* <View style={{borderWidth:0.5,borderColor:'#DDDDDD'}}/> */}
+                          </View>
+                        )}
+                      />
+                      <SafeAreaView />
+                    </View>
+                  </View>
+                </>
+              </TouchableWithoutFeedback>
+
+              <Modal
+                isVisible={this.state.isCallModalVisible}
+                transparent={true}
+                onRequestClose={() => this.hideCallPopup()}
+                onBackdropPress={() => this.hideCallPopup()}
+                onBackButtonPress={() => this.hideCallPopup()}
+                style={{ margin: 0 }}>
+                <TouchableWithoutFeedback
+                  style={{ flex: 1 }}
+                  onPress={this._pressCall}>
+                  <View
+                    style={{
+                      backgroundColor: '#ffffff',
+                      marginHorizontal: 16,
+                      borderRadius: 14,
+                    }}>
                     <View
                       style={{
                         flexDirection: 'row',
@@ -409,18 +497,21 @@ class AccountContainer extends Component {
                         backgroundColor: headerTheme
                           ? '#' + headerTheme
                           : '#303030',
+                        borderTopLeftRadius: 10,
+                        borderTopRightRadius: 10,
                       }}>
                       <Text
                         style={{
-                          color: '#FFFFFF',
                           fontSize: 18,
-                          margin: Platform.OS === 'android' ? 12 : 15,
+                          marginLeft: 15,
+                          marginVertical: Platform.OS === 'android' ? 8 : 10,
+                          color: '#FFFFFF',
                         }}>
-                        Call / Email Us
-                      </Text>
+                        Contacts
+                    </Text>
                       <TouchableOpacity
                         onPress={() =>
-                          this.setState({ accountEmailModal: false })
+                          this.setState({ isCallModalVisible: false })
                         }>
                         <Image
                           style={styles.closeIcon}
@@ -429,99 +520,60 @@ class AccountContainer extends Component {
                       </TouchableOpacity>
                     </View>
 
-                    <View style={styles.border}></View>
-
-                    <FlatList
-                      data={callEmailData.data}
-                      refreshing={this.props.isFetching}
-                      showsVerticalScrollIndicator={false}
-                      renderItem={({ item }) => (
-                        <View>
-                          <View style={styles.cityContainer}>
-                            <View style={styles.circleContainer}>
-                              <Text style={styles.circleText}>
-                                {item.location.charAt(0).toUpperCase()}
-                              </Text>
-                            </View>
-
-                            <View style={styles.location}>
-                              <Text style={styles.locationText}>
-                                {item.location}
-                              </Text>
-                            </View>
-                          </View>
-
-                          <View style={styles.addressContainer}>
-                            <Text style={styles.addressText}>
-                              Address : {item.address}
-                            </Text>
-                            <Text style={styles.emailText}>
-                              Email : {item.email}
-                            </Text>
-                          </View>
-
-                          <View style={styles.bottomContainer}>
-                            <TouchableOpacity
-                              onPress={() =>
-                                this.showCallPopup(item.contact_number[0].phone)
-                              }>
-                              <Text style={styles.bottomText}>CALL</Text>
-                            </TouchableOpacity>
-                            <TouchableOpacity
-                              onPress={() => this.sentEmail(item.email)}>
-                              <Text style={styles.bottomText}>EMAIL</Text>
-                            </TouchableOpacity>
-                          </View>
-
-                          {/* <View style={{borderWidth:0.5,borderColor:'#DDDDDD'}}/> */}
-                        </View>
-                      )}
-                    />
-                    <SafeAreaView />
-                  </View>
-                </View>
-              </>
-            </TouchableWithoutFeedback>
-
-            <Modal
-              isVisible={this.state.isCallModalVisible}
-              transparent={true}
-              onRequestClose={() => this.hideCallPopup()}
-              onBackdropPress={() => this.hideCallPopup()}
-              onBackButtonPress={() => this.hideCallPopup()}
-              style={{ margin: 0 }}>
-              <TouchableWithoutFeedback
-                style={{ flex: 1 }}
-                onPress={this._pressCall}>
-                <View
-                  style={{
-                    backgroundColor: '#ffffff',
-                    marginHorizontal: 16,
-                    borderRadius: 14,
-                  }}>
-                  <View
-                    style={{
-                      flexDirection: 'row',
-                      justifyContent: 'space-between',
-                      backgroundColor: headerTheme
-                        ? '#' + headerTheme
-                        : '#303030',
-                      borderTopLeftRadius: 10,
-                      borderTopRightRadius: 10,
-                    }}>
-                    <Text
+                    <View
                       style={{
-                        fontSize: 18,
-                        marginLeft: 15,
-                        marginVertical: Platform.OS === 'android' ? 8 : 10,
-                        color: '#FFFFFF',
+                        marginTop: 10,
+                        borderBottomWidth: 0.8,
+                        borderColor: '#D3D3D3',
+                        marginBottom: 12,
+                        marginLeft: 20,
                       }}>
-                      Contacts
+                      <Text style={{ fontSize: 15, marginBottom: 7 }}>
+                        Contact : {selectedPhoneNo && selectedPhoneNo}
+                      </Text>
+                      <Text style={{ fontSize: 15, marginBottom: 7 }}>
+                        Description : Orders
                     </Text>
+                    </View>
+                    <View style={styles.buttonContainer}>
+                      <ActionButtonRounded
+                        title="CANCEL"
+                        onButonPress={() =>
+                          this.setState({
+                            isCallModalVisible: false,
+                          })
+                        }
+                        // containerStyle={styles.buttonStyle}
+                        color={headerTheme}
+                      />
+                    </View>
+                  </View>
+                </TouchableWithoutFeedback>
+              </Modal>
+            </Modal>
+
+            {/* SOCIAL MEDIA MODAL */}
+            <Modal
+              isVisible={this.state.isSocialMediaModal}
+              transparent={true}
+              onRequestClose={() => this.closeSocialMediaModal()}
+              onBackdropPress={() => this.closeSocialMediaModal()}
+              onBackButtonPress={() => this.closeSocialMediaModal()}
+              style={{ margin: 0 }}>
+              <TouchableWithoutFeedback style={styles.flex}>
+                <View style={styles.contain}>
+                  <View
+                    style={[
+                      styles.titleContainer,
+                      {
+                        backgroundColor: headerTheme
+                          ? '#' + headerTheme
+                          : '#303030',
+                      },
+                    ]}>
+                    <Text style={styles.titleText2}>Social Media</Text>
                     <TouchableOpacity
-                      onPress={() =>
-                        this.setState({ isCallModalVisible: false })
-                      }>
+                      onPress={() => this.closeSocialMediaModal()}>
                       <Image
                         style={styles.closeIcon}
                         source={IconPack.WHITE_CLOSE}
@@ -529,29 +581,20 @@ class AccountContainer extends Component {
                     </TouchableOpacity>
                   </View>
 
-                  <View
-                    style={{
-                      marginTop: 10,
-                      borderBottomWidth: 0.8,
-                      borderColor: '#D3D3D3',
-                      marginBottom: 12,
-                      marginLeft: 20,
-                    }}>
-                    <Text style={{ fontSize: 15, marginBottom: 7 }}>
-                      Contact : {selectedPhoneNo && selectedPhoneNo}
-                    </Text>
-                    <Text style={{ fontSize: 15, marginBottom: 7 }}>
-                      Description : Orders
-                    </Text>
+                  <View style={styles.spaceHorizontal}>
+                    <RowData
+                      title="Facebook"
+                      onPress={() => this.openFacebookWebView()}
+                    />
+                    <RowData
+                      title="Instagram"
+                      onPress={() => this.openInstaWebView()}
+                    />
                   </View>
                   <View style={styles.buttonContainer}>
                     <ActionButtonRounded
                       title="CANCEL"
-                      onButonPress={() =>
-                        this.setState({
-                          isCallModalVisible: false,
-                        })
-                      }
+                      onButonPress={() => this.closeSocialMediaModal()}
                       // containerStyle={styles.buttonStyle}
                       color={headerTheme}
                     />
@@ -559,59 +602,11 @@ class AccountContainer extends Component {
                 </View>
               </TouchableWithoutFeedback>
             </Modal>
-          </Modal>
 
-          {/* SOCIAL MEDIA MODAL */}
-          <Modal
-            isVisible={this.state.isSocialMediaModal}
-            transparent={true}
-            onRequestClose={() => this.closeSocialMediaModal()}
-            onBackdropPress={() => this.closeSocialMediaModal()}
-            onBackButtonPress={() => this.closeSocialMediaModal()}
-            style={{ margin: 0 }}>
-            <TouchableWithoutFeedback style={styles.flex}>
-              <View style={styles.contain}>
-                <View
-                  style={[
-                    styles.titleContainer,
-                    {
-                      backgroundColor: headerTheme
-                        ? '#' + headerTheme
-                        : '#303030',
-                    },
-                  ]}>
-                  <Text style={styles.titleText2}>Social Media</Text>
-                  <TouchableOpacity
-                    onPress={() => this.closeSocialMediaModal()}>
-                    <Image
-                      style={styles.closeIcon}
-                      source={IconPack.WHITE_CLOSE}
-                    />
-                  </TouchableOpacity>
-                </View>
+          </ScrollView>
 
-                <View style={styles.spaceHorizontal}>
-                  <RowData
-                    title="Facebook"
-                    onPress={() => this.openFacebookWebView()}
-                  />
-                  <RowData
-                    title="Instagram"
-                    onPress={() => this.openInstaWebView()}
-                  />
-                </View>
-                <View style={styles.buttonContainer}>
-                  <ActionButtonRounded
-                    title="CANCEL"
-                    onButonPress={() => this.closeSocialMediaModal()}
-                    // containerStyle={styles.buttonStyle}
-                    color={headerTheme}
-                  />
-                </View>
-              </View>
-            </TouchableWithoutFeedback>
-          </Modal>
-        </ScrollView>
+        </ImageBackground>
+
       </View>
     );
   }
@@ -853,10 +848,7 @@ function mapStateToProps(state) {
   };
 }
 
-export default connect(
-  mapStateToProps,
-  { getCallEmailData },
-)(AccountContainer);
+export default connect(mapStateToProps, { getCallEmailData })(AccountContainer);
 
 const actionButtonRoundedStyle = StyleSheet.create({
   mainContainerStyle: {

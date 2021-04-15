@@ -825,7 +825,12 @@ class ProductDetails extends React.Component {
         {productDetailsStateData ? (
           <Container style={styles.flex}>
             <Header
-              style={styles.headerStyle}
+              style={{
+                backgroundColor: headerTheme ? '#' + headerTheme : color.white,
+                elevation: 0,
+                borderBottomWidth: 0,
+                alignItems: 'center',
+              }}
               iosBarStyle="default"
               androidStatusBarColor="default">
               <View style={styles.textViewStyle}>
@@ -833,18 +838,18 @@ class ProductDetails extends React.Component {
                   hitSlop={{ top: 15, left: 15, right: 20, bottom: 15 }}
                   onPress={() => this.props.navigation.goBack()}>
                   <Image
-                    source={require('../../assets/image/Account/back_button.png')}
+                    source={require('../../assets/left-arrow.png')}
                     style={{
-                      marginLeft: 10,
-                      height: hp(3),
-                      width: hp(2.2),
+                      height: hp(3.5),
+                      width: hp(3),
                     }}
+                    resizeMode='contain'
                   />
                 </TouchableOpacity>
                 <Animated.Text
                   style={[
                     styles.headerTextStyle,
-                    { color: '#303030', opacity: headerOpacity },
+                    { color: '#fff', opacity: headerOpacity },
                   ]}>
                   {productDetailsStateData.product_name}
                 </Animated.Text>
@@ -1271,7 +1276,7 @@ const styles = StyleSheet.create({
   },
 
   headerTextStyle: {
-    fontSize: hp(2.6),
+    fontSize: 19,
     fontFamily: 'Lato-Bold',
     letterSpacing: 1,
     marginLeft: 12,

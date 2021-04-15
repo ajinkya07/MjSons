@@ -35,8 +35,7 @@ class _Header extends Component {
       <Header
         style={{
           width: wp(100),
-          height: hp(7.5),
-          paddingVertical: Platform.OS === 'ios' ? 5 : 2,
+          height: hp(7),
           marginLeft: -5,
           backgroundColor: headerColor ? '#' + headerColor : '#fff',
           alignItems: 'center'
@@ -50,15 +49,10 @@ class _Header extends Component {
               />
             ) : (
                 <View style={{ flexDirection: 'row', }}>
-                  {/* <Image
-                    source={require('../../assets/swarna-Home-Icon.png')}
-                    style={{ height: hp(5.5), top: Platform.OS == 'ios' ? -3 : 5 }}
-                    resizeMode={'contain'}
-                  /> */}
+
                   <View
                     style={{
                       width: wp(12.5),
-                      //backgroundColor: 'red',
                       alignItems: 'center',
                       justifyContent: 'center',
                     }}>
@@ -66,19 +60,18 @@ class _Header extends Component {
                       source={require('../../assets/MJ-Home-Icon.png')}
                       style={{
                         height: hp(5.5),
-                        top: Platform.OS == 'ios' ? -3 : 0,
                         marginRight: 8,
                       }}
                       resizeMode={'contain'}
                     />
                   </View>
-                  <View style={{ marginLeft: 5, marginTop: Platform.OS == 'ios' ? 0 : 2 }}>
+                  <View style={{ marginLeft: 5, }}>
                     <Text
                       style={{
                         fontFamily: 'Lato-Bold',
                         color: '#fff',
-                        fontSize: hp(2.5),
-                        letterSpacing: 0.2,
+                        fontSize: 18,
+                        letterSpacing: 1,
                       }}>
                       {strings.appName}
                     </Text>
@@ -86,7 +79,7 @@ class _Header extends Component {
                       style={{
                         fontFamily: 'Lato-Bold',
                         color: '#fff',
-                        fontSize: hp(1.6),
+                        fontSize: 14,
                         letterSpacing: 1,
                       }}>
                       {strings.appSubName}

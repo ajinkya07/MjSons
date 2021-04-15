@@ -2,11 +2,15 @@
   <library name="Gradle: com.facebook.react:react-native:0.63.4@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1b380eb0626a66480b402dcede5cf478/jetified-react-native-0.63.4/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e21a9e71b5c42442c1af07ac738dc4de/jetified-react-native-0.63.4/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1b380eb0626a66480b402dcede5cf478/jetified-react-native-0.63.4/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1b380eb0626a66480b402dcede5cf478/jetified-react-native-0.63.4/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1b380eb0626a66480b402dcede5cf478/jetified-react-native-0.63.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e21a9e71b5c42442c1af07ac738dc4de/jetified-react-native-0.63.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e21a9e71b5c42442c1af07ac738dc4de/jetified-react-native-0.63.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e21a9e71b5c42442c1af07ac738dc4de/jetified-react-native-0.63.4/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../node_modules/react-native/android/com/facebook/react/react-native/0.63.4/react-native-0.63.4-javadoc.jar!/" />

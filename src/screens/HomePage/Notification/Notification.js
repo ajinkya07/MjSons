@@ -17,15 +17,6 @@ import { urls } from '@api/urls';
 import { getNotificationList } from '@notification/NotificationAction'
 
 
-const data = [
-    { id: '1', title: "Your first notification", msg: 'Diwali', orderID: 50, date: '2020-07-08', image: require('../../../assets/image/insta.png') },
-    { id: '2', title: "Your first notification", msg: 'Diwali', orderID: 50, date: '2020-07-08', image: require('../../../assets/image/insta.png') },
-    { id: '3', title: "Your first notification", msg: 'Diwali', orderID: 50, date: '2020-07-08', image: require('../../../assets/image/insta.png') },
-    { id: '4', title: "Your first notification", msg: 'Diwali', orderID: 50, date: '2020-07-08', image: require('../../../assets/image/insta.png') },
-
-
-]
-
 class Notification extends Component {
     constructor(props) {
         super(props);
@@ -111,22 +102,18 @@ class Notification extends Component {
                         </View>
 
                         <View style={{ alignContent: 'center', justifyContent: 'center', flex: 0.75 }}>
-                            <_Text numberOfLines={2} fwSmall
-                                fsMedium style={{ marginRight: hp(3) }}>
+                            <_Text numberOfLines={2} fwSmall fsPrimary style={{ fontFamily: 'Lato-Regular' }} >
                                 Title: {item.title}
                             </_Text>
-                            <_Text numberOfLines={2} fsPrimary
-                                style={{ marginRight: hp(3) }}>
+                            <_Text numberOfLines={2} note style={{ top: 3, }}>
                                 Message: {item.sub_title}
                             </_Text>
                             <View style={{ justifyContent: 'space-between', flexDirection: 'row' }}>
-                                <_Text numberOfLines={2} note
-                                    style={{ marginRight: hp(3) }}>
+                                <_Text numberOfLines={2} note style={{ top: 3 }}>
                                     Order id: {item.order_id}
                                 </_Text>
-                                <_Text numberOfLines={2} note
-                                    style={{ marginRight: hp(3) }}>
-                                    Date:{item.created}
+                                <_Text numberOfLines={2} note style={{ top: 3 }}>
+                                    Date:{(item.created).slice(0, 16)}
                                 </_Text>
 
                             </View>

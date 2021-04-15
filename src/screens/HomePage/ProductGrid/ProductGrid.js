@@ -602,11 +602,8 @@ class ProductGrid extends Component {
       this.state.successProductAddToCartPlusOneVersion >
       prevState.successProductAddToCartPlusOneVersion
     ) {
-      console.log("productAddToCartPlusOneData", productAddToCartPlusOneData);
       if (productAddToCartPlusOneData.ack === '1') {
-        // var Index = _.findIndex(this.state.gridData, {
-        //     product_inventory_id: parseInt(this.state.productInventoryId),
-        // });
+
         var Index = this.state.gridData.findIndex(
           item => item.product_inventory_id == this.state.productInventoryId,
         );
