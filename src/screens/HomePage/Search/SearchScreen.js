@@ -102,8 +102,6 @@ class SearchScreen extends Component {
     }
 
 
-
-
     static getDerivedStateFromProps(nextProps, prevState) {
         const { successSearchbyCategoryVersion, errorSearchbyCategoryVersion,
             successSearchbyCodeVersion, errorSearchbyCodeVersion,
@@ -186,13 +184,6 @@ class SearchScreen extends Component {
         }
         if (this.state.errorSearchbyCodeVersion > prevState.errorSearchbyCodeVersion) {
             this.showToast(this.props.errorMsgSearch, 'danger')
-        }
-
-        if (this.state.successAllParameterVersion > prevState.successAllParameterVersion) {
-
-        }
-        if (this.state.errorAllParamaterVersion > prevState.errorAllParamaterVersion) {
-
         }
 
     }
@@ -621,8 +612,6 @@ class SearchScreen extends Component {
         const { selectedItems2 } = this.state
 
         categoryIds = selectedItems2.map(x => { return x.id })
-
-
     }
 
     onCancelCategory = () => {

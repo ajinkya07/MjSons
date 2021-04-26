@@ -39,7 +39,6 @@ import { searchProducts } from '@search/SearchAction'
 import { Toast, CheckBox } from 'native-base';
 import Modal from 'react-native-modal';
 import { strings } from '@values/strings';
-import FastImage from 'react-native-fast-image';
 import Theme from '../../../values/Theme';
 
 var userId = '';
@@ -90,7 +89,6 @@ class SearchProductGrid extends Component {
 
   componentDidMount = () => {
     const { searchByCategoryData } = this.props
-    const { gridData, searchCount } = this.state
     if (searchByCategoryData && searchByCategoryData.data.products && searchByCategoryData.data.products.length > 0) {
       this.setState({
         gridData: this.state.page === 0 ? searchByCategoryData.data.products
@@ -129,8 +127,6 @@ class SearchProductGrid extends Component {
       productTotalcountSuccessVersion,
       productTotalcountErrorVersion,
       successSearchbyCategoryVersion, errorSearchbyCategoryVersion,
-
-
     } = nextProps;
     let newState = null;
 
@@ -240,8 +236,6 @@ class SearchProductGrid extends Component {
     } = this.props;
 
 
-    const { categoryData, page, selectedSortById, gridData } = this.state;
-
     if (this.state.successSearchbyCategoryVersion > prevState.successSearchbyCategoryVersion) {
       this.setState({
         gridData: this.state.page === 0 ? searchByCategoryData.data.products
@@ -252,18 +246,6 @@ class SearchProductGrid extends Component {
       this.showToast(this.props.errorMsgSearch, 'danger')
     }
 
-    // if (this.state.successProductGridVersion > prevState.successProductGridVersion) {
-    //   if (productGridData.products && productGridData.products.length > 0) {
-    //     this.setState({
-    //       gridData:
-    //         this.state.page === 0
-    //           ? productGridData.products
-    //           : [...this.state.gridData, ...productGridData.products],
-    //     });
-    //   } else {
-    //     this.showToast('Please contact admin', 'danger');
-    //   }
-    // }
 
     if (this.state.errorProductGridVersion > prevState.errorProductGridVersion) {
       Toast.show({
@@ -432,26 +414,16 @@ class SearchProductGrid extends Component {
   //GRID UI HERE------------
 
   gridView = item => {
-    const {
-      gridItemDesign,
-      latestTextView,
-      latestTextView2,
-      gridImage,
-      gridDesign,
-      border,
-      iconView,
-    } = ProductGridStyle;
+    const { gridItemDesign, border, iconView, } = ProductGridStyle;
 
     let url = urls.imageUrl + 'public/backend/product_images/thumb_image/'
 
-    const { gridData } = this.state
     return (
       <TouchableOpacity
         onPress={() => this.props.navigation.navigate('ProductDetails', { productItemDetails: item, })}>
         <View
           style={{
             backgroundColor: color.white,
-            // height: Platform.OS === 'android' ? hp(34) : hp(32),
             width: wp(46),
             marginHorizontal: hp(1),
             borderRadius: 15,
@@ -782,46 +754,6 @@ class SearchProductGrid extends Component {
     }
   };
 
-  footer = () => {
-    return (
-      <View>
-        {!this.props.isFetching && this.state.gridData.length >= 10 ? (
-          <TouchableOpacity onPress={() => this.LoadMoreData()}>
-            <View
-              style={{
-                flex: 1,
-                height: hp(7),
-                width: wp(100),
-                backgroundColor: '#EEF8F7',
-                justifyContent: 'center',
-                alignItems: 'center',
-              }}>
-              <Text
-                style={{ color: '#0d185c', fontSize: 18, fontWeight: 'bold' }}>
-                Load More
-              </Text>
-            </View>
-          </TouchableOpacity>
-        ) : null}
-        {this.state.clickedLoadMore &&
-          this.props.isFetching &&
-          this.state.gridData.length >= 10 ? (
-            <View
-              style={{
-                flex: 1,
-                height: 40,
-                width: wp(100),
-                backgroundColor: '#EEF8F7',
-                justifyContent: 'center',
-                alignItems: 'center',
-              }}>
-              <ActivityIndicator size="small" color={color.brandColor} />
-            </View>
-          ) : null}
-      </View>
-    );
-  };
-
 
   onTextChanged = (inputKey, value) => {
     this.setState({
@@ -840,21 +772,18 @@ class SearchProductGrid extends Component {
       <SafeAreaView style={{ flex: 1, backgroundColor: '#f3fcf9' }}>
         <_CustomHeader
           Title={`(${gridData.length.toString()})` + ' ' + `${!fromCodeSearch ? 'Advanced Search' : ' Search By Code'}`}
-          // Subtitle={ `(${(gridData.length).toString()})`}
           RightBtnIcon1={require('../../../assets/image/BlueIcons/Search-White.png')}
           RightBtnIcon2={require('../../../assets/shopping-cart.png')}
           RightBtnPressOne={() => this.props.navigation.navigate('SearchScreen')}
           RightBtnPressTwo={() => this.props.navigation.navigate('CartContainer', { fromProductGrid: true })}
           rightIconHeight2={hp(3.5)}
           LeftBtnPress={() => this.props.navigation.goBack()}
-          backgroundColor="#19af81"
         />
 
 
         {gridData && (
           <FlatList
             data={gridData}
-            showsHorizontalScrollIndicator={true}
             showsVerticalScrollIndicator={false}
             renderItem={({ item, index }) => (
               <View key={'s' + index} style={{ marginVertical: hp(1) }}>
@@ -864,7 +793,6 @@ class SearchProductGrid extends Component {
             numColumns={2}
             keyExtractor={(item, index) => index.toString()}
             style={{ marginTop: hp(1) }}
-            // ListFooterComponent={this.footer()}
             onEndReachedThreshold={0.4}
             onEndReached={() => this.LoadMoreData()}
 

@@ -9,7 +9,6 @@ import {
   SEARCH_BY_CODE_ERROR,
   SEARCH_BY_CODE_RESET_REDUCER,
 
-
   SEARCH_COUNT,
   SEARCH_COUNT_SUCCESS,
   SEARCH_COUNT_ERROR,
@@ -28,7 +27,6 @@ const initialState = {
 
   successSearchbyCodeVersion: 0,
   errorSearchbyCodeVersion: 0,
-  // searchByCodeData:[]
 
   successSearchCountVersion: 0,
   errorSearchCountVersion: 0,

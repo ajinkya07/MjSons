@@ -11,14 +11,11 @@ import {
     TouchableOpacity,
 } from 'react-native';
 import { color } from '@values/colors';
-import { strings } from '@values/strings';
 import _Text from '@text/_Text';
 import FastImage from 'react-native-fast-image';
-import Modal from 'react-native-modal';
 import Swiper from 'react-native-swiper'
 import { urls } from '@api/urls'
 import ImageZoom from 'react-native-image-pan-zoom';
-import IconPack from '@login/IconPack';
 import Carousel, { Pagination, ParallaxImage, SliderEntry } from 'react-native-snap-carousel';
 
 
@@ -78,13 +75,6 @@ export default class BannerImage extends Component {
                         }}
                         resizeMode={FastImage.resizeMode.contain}
                     />
-                    {/* <Image
-                        source={{ uri: url2 + item }}
-                        resizeMode='contain'
-                        style={{ height: hp(80), width: wp(100) }}
-                        defaultSource={IconPack.APP_LOGO}
-                    /> */}
-
                 </ImageZoom>
 
 
@@ -107,8 +97,6 @@ export default class BannerImage extends Component {
                         index={this.state.currentPage}
                         autoplay={false}
                         showsPagination={true}
-                        // loadMinimal={true}
-                        // loadMinimalLoader={<ActivityIndicator size="small" color='gray' />}
                         dot={<View style={{
                             backgroundColor: 'gray', width: 8, height: 8,
                             borderRadius: 4, marginLeft: 3,
@@ -120,7 +108,6 @@ export default class BannerImage extends Component {
                         }} />}
                         onIndexChanged={(page) => this.setCurrentPage(page)}
                         buttonWrapperStyle={{
-                            //backgroundColor: '#d7d7d7',
                             flexDirection: 'row', height: hp(7),
                             top: hp(100) - hp(26),
                             position: 'absolute',
