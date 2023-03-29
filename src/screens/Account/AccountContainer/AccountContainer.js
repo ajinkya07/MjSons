@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import {
   View,
   Text,
@@ -14,28 +14,28 @@ import {
   Linking,
   Platform,
 } from 'react-native';
-import { Container, Content, Icon, Toast } from 'native-base';
+import {Container, Content, Icon, Toast} from 'native-base';
 import IconPack from '../../OnBoarding/Login/IconPack';
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
 import _Text from '@text/_Text';
-import { strings } from '@values/strings';
-import { CommonActions, Link } from '@react-navigation/native';
+import {strings} from '@values/strings';
+import {CommonActions, Link} from '@react-navigation/native';
 import AsyncStorage from '@react-native-community/async-storage';
 import Modal from 'react-native-modal';
-import { color } from '@values/colors';
-import { connect } from 'react-redux';
+import {color} from '@values/colors';
+import {connect} from 'react-redux';
 
-import { version } from '../../../../package.json';
+import {version} from '../../../../package.json';
 import Theme from '../../../values/Theme';
-const { width } = Dimensions.get('window');
+const {width} = Dimensions.get('window');
 import Share from 'react-native-share';
-import { getCallEmailData } from '@accountContainer/AccountAction';
-import { FlatList } from 'react-native-gesture-handler';
+import {getCallEmailData} from '@accountContainer/AccountAction';
+import {FlatList} from 'react-native-gesture-handler';
 
-const AccountRow = ({ icon, title, onPress }) => {
+const AccountRow = ({icon, title, onPress}) => {
   return (
     <TouchableOpacity onPress={() => onPress()}>
       <View style={styles.accountRowViewContainer}>
@@ -67,13 +67,13 @@ class AccountContainer extends Component {
   }
 
   componentDidMount = () => {
-    const { allParameterData } = this.props;
+    const {allParameterData} = this.props;
     this.props.getCallEmailData();
     this.getItem();
   };
 
   static getDerivedStateFromProps(nextProps, prevState) {
-    const { successCallEmailVersion, errorCallEmailVersion } = nextProps;
+    const {successCallEmailVersion, errorCallEmailVersion} = nextProps;
 
     let newState = null;
 
@@ -94,7 +94,7 @@ class AccountContainer extends Component {
   }
 
   async componentDidUpdate(prevProps, prevState) {
-    const { callEmailData } = this.props;
+    const {callEmailData} = this.props;
 
     if (
       this.state.successCallEmailVersion > prevState.successCallEmailVersion
@@ -135,13 +135,13 @@ class AccountContainer extends Component {
             this.props.navigation.dispatch(
               CommonActions.reset({
                 index: 0,
-                routes: [{ name: 'SignIn' }],
+                routes: [{name: 'SignIn'}],
               }),
             );
           },
         },
       ],
-      { cancelable: false },
+      {cancelable: false},
     );
   };
 
@@ -152,29 +152,29 @@ class AccountContainer extends Component {
 
   showAppVersion = () => {
     Toast.show({
-      text: 'App version:  ' + '1.0.3',
+      text: 'App version:  ' + '1.0.4',
       duration: 2000,
     });
   };
 
   showCallEmailModal = () => {
-    this.setState({ accountEmailModal: true });
+    this.setState({accountEmailModal: true});
   };
 
   hideCallEmailModal = () => {
-    this.setState({ accountEmailModal: false });
+    this.setState({accountEmailModal: false});
   };
 
   showCallPopup = phone => {
-    this.setState({ isCallModalVisible: true, selectedPhoneNo: phone });
+    this.setState({isCallModalVisible: true, selectedPhoneNo: phone});
   };
 
   hideCallPopup = () => {
-    this.setState({ isCallModalVisible: false, selectedPhoneNo: '' });
+    this.setState({isCallModalVisible: false, selectedPhoneNo: ''});
   };
 
   myCustomShare = async () => {
-    const { allParameterData } = this.props;
+    const {allParameterData} = this.props;
 
     let type = Platform.OS === 'ios' ? 'ios' : 'android';
 
@@ -193,7 +193,7 @@ class AccountContainer extends Component {
   };
 
   rateApp = async () => {
-    const { allParameterData } = this.props;
+    const {allParameterData} = this.props;
     let type1 = Platform.OS === 'ios' ? 'ios' : 'android';
 
     let androidLink1 = allParameterData.android_app_link;
@@ -204,7 +204,7 @@ class AccountContainer extends Component {
   };
 
   _pressCall = () => {
-    const { allParameterData } = this.props;
+    const {allParameterData} = this.props;
 
     const c = allParameterData.call;
 
@@ -216,7 +216,6 @@ class AccountContainer extends Component {
 
   sentEmail = email => {
     Linking.openURL(`mailto:${email}?subject=write a subject`);
-
   };
 
   openSocialMediaModal = () => {
@@ -232,7 +231,7 @@ class AccountContainer extends Component {
   };
 
   openFacebookWebView = () => {
-    const { allParameterData } = this.props;
+    const {allParameterData} = this.props;
 
     let facebook = allParameterData.facebook;
 
@@ -245,7 +244,7 @@ class AccountContainer extends Component {
   };
 
   openInstaWebView = () => {
-    const { allParameterData } = this.props;
+    const {allParameterData} = this.props;
 
     let instagram = allParameterData.instagram;
 
@@ -258,8 +257,8 @@ class AccountContainer extends Component {
   };
 
   render() {
-    const { allParameterData, callEmailData } = this.props;
-    const { selectedPhoneNo, fullName } = this.state;
+    const {allParameterData, callEmailData} = this.props;
+    const {selectedPhoneNo, fullName} = this.state;
 
     const aboutUS = allParameterData.about_us;
     const privacyPolicy = allParameterData.privacy_policy;
@@ -277,9 +276,8 @@ class AccountContainer extends Component {
       : '';
 
     return (
-      <View style={{ flex: 1, width: wp(100) }}>
+      <View style={{flex: 1, width: wp(100)}}>
         <ImageBackground source={IconPack.LOGIN_BG} style={styles.bgImage}>
-
           <ScrollView showsVerticalScrollIndicator={false} bounces={false}>
             <View style={styles.topViewContainer}>
               <Image
@@ -388,8 +386,8 @@ class AccountContainer extends Component {
               onRequestClose={() => this.hideCallEmailModal()}
               onBackdropPress={() => this.hideCallEmailModal()}
               onBackButtonPress={() => this.hideCallEmailModal()}
-              style={{ margin: 0 }}>
-              <TouchableWithoutFeedback style={{ flex: 1 }} onPress={() => null}>
+              style={{margin: 0}}>
+              <TouchableWithoutFeedback style={{flex: 1}} onPress={() => null}>
                 <>
                   <View style={styles.mainContainer}>
                     <View style={styles.content}>
@@ -408,10 +406,10 @@ class AccountContainer extends Component {
                             margin: Platform.OS === 'android' ? 12 : 15,
                           }}>
                           Call / Email Us
-                      </Text>
+                        </Text>
                         <TouchableOpacity
                           onPress={() =>
-                            this.setState({ accountEmailModal: false })
+                            this.setState({accountEmailModal: false})
                           }>
                           <Image
                             style={styles.closeIcon}
@@ -426,7 +424,7 @@ class AccountContainer extends Component {
                         data={callEmailData.data}
                         refreshing={this.props.isFetching}
                         showsVerticalScrollIndicator={false}
-                        renderItem={({ item }) => (
+                        renderItem={({item}) => (
                           <View>
                             <View style={styles.cityContainer}>
                               <View style={styles.circleContainer}>
@@ -454,7 +452,9 @@ class AccountContainer extends Component {
                             <View style={styles.bottomContainer}>
                               <TouchableOpacity
                                 onPress={() =>
-                                  this.showCallPopup(item.contact_number[0].phone)
+                                  this.showCallPopup(
+                                    item.contact_number[0].phone,
+                                  )
                                 }>
                                 <Text style={styles.bottomText}>CALL</Text>
                               </TouchableOpacity>
@@ -480,9 +480,9 @@ class AccountContainer extends Component {
                 onRequestClose={() => this.hideCallPopup()}
                 onBackdropPress={() => this.hideCallPopup()}
                 onBackButtonPress={() => this.hideCallPopup()}
-                style={{ margin: 0 }}>
+                style={{margin: 0}}>
                 <TouchableWithoutFeedback
-                  style={{ flex: 1 }}
+                  style={{flex: 1}}
                   onPress={this._pressCall}>
                   <View
                     style={{
@@ -508,10 +508,10 @@ class AccountContainer extends Component {
                           color: '#FFFFFF',
                         }}>
                         Contacts
-                    </Text>
+                      </Text>
                       <TouchableOpacity
                         onPress={() =>
-                          this.setState({ isCallModalVisible: false })
+                          this.setState({isCallModalVisible: false})
                         }>
                         <Image
                           style={styles.closeIcon}
@@ -528,12 +528,12 @@ class AccountContainer extends Component {
                         marginBottom: 12,
                         marginLeft: 20,
                       }}>
-                      <Text style={{ fontSize: 15, marginBottom: 7 }}>
+                      <Text style={{fontSize: 15, marginBottom: 7}}>
                         Contact : {selectedPhoneNo && selectedPhoneNo}
                       </Text>
-                      <Text style={{ fontSize: 15, marginBottom: 7 }}>
+                      <Text style={{fontSize: 15, marginBottom: 7}}>
                         Description : Orders
-                    </Text>
+                      </Text>
                     </View>
                     <View style={styles.buttonContainer}>
                       <ActionButtonRounded
@@ -559,7 +559,7 @@ class AccountContainer extends Component {
               onRequestClose={() => this.closeSocialMediaModal()}
               onBackdropPress={() => this.closeSocialMediaModal()}
               onBackButtonPress={() => this.closeSocialMediaModal()}
-              style={{ margin: 0 }}>
+              style={{margin: 0}}>
               <TouchableWithoutFeedback style={styles.flex}>
                 <View style={styles.contain}>
                   <View
@@ -602,11 +602,8 @@ class AccountContainer extends Component {
                 </View>
               </TouchableWithoutFeedback>
             </Modal>
-
           </ScrollView>
-
         </ImageBackground>
-
       </View>
     );
   }
@@ -802,10 +799,10 @@ const styles = StyleSheet.create({
   },
 });
 
-const RowData = ({ title, onPress }) => {
+const RowData = ({title, onPress}) => {
   return (
     <TouchableOpacity onPress={() => onPress()}>
-      <View style={{ marginBottom: 14 }}>
+      <View style={{marginBottom: 14}}>
         <Text style={styles.subTitleStyle}>{title}</Text>
         <View style={styles.borderStyle} />
       </View>
@@ -813,7 +810,7 @@ const RowData = ({ title, onPress }) => {
   );
 };
 
-const ActionButtonRounded = ({ title, onButonPress, containerStyle, color }) => {
+const ActionButtonRounded = ({title, onButonPress, containerStyle, color}) => {
   return (
     <TouchableOpacity
       onPress={() => {
@@ -848,7 +845,7 @@ function mapStateToProps(state) {
   };
 }
 
-export default connect(mapStateToProps, { getCallEmailData })(AccountContainer);
+export default connect(mapStateToProps, {getCallEmailData})(AccountContainer);
 
 const actionButtonRoundedStyle = StyleSheet.create({
   mainContainerStyle: {
