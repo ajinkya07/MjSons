@@ -54,11 +54,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Folly.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>GoogleAppMeasurement.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -84,7 +79,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Protobuf.xcscheme</key>
+		<key>RCT-Folly.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -120,11 +115,6 @@
 			<false/>
 		</dict>
 		<key>RNCPicker.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>RNCPushNotificationIOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -265,6 +255,16 @@
 			<false/>
 		</dict>
 		<key>React-jsinspector.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>React-perflogger.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>React-runtimeexecutor.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

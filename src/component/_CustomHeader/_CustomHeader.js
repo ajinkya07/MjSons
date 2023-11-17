@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import { Header, Left, Button, Body, Right, Title, Subtitle } from 'native-base';
+import React, {Component} from 'react';
+import {Header, Left, Button, Body, Right, Title, Subtitle} from 'native-base';
 
-import { View, Image, TouchableOpacity, Platform } from 'react-native';
+import {View, Image, TouchableOpacity, Platform} from 'react-native';
 import _Text from '@text/_Text';
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-import { color } from '@values/colors';
+import {color} from '@values/colors';
 
 export default class _CustomHeader extends Component {
   constructor(props) {
@@ -16,8 +16,7 @@ export default class _CustomHeader extends Component {
   }
 
   render() {
-
-    let headerTheme = global.headerTheme
+    let headerTheme = global.headerTheme;
 
     return (
       <View>
@@ -27,44 +26,48 @@ export default class _CustomHeader extends Component {
             width: wp(100),
             height: hp(7),
             alignItems: 'center',
-            backgroundColor: headerTheme ? '#' + headerTheme : this.props.backgroundColor
+            backgroundColor: headerTheme
+              ? '#' + headerTheme
+              : this.props.backgroundColor,
           }}>
-
-          <Left style={{ flex: 0.25 }}>
+          <Left style={{flex: 0.25}}>
             <TouchableOpacity
-              onPress={() => { this.props.LeftBtnPress(); }}
-              hitSlop={{ top: 15, left: 15, right: 120, bottom: 15 }}>
+              onPress={() => {
+                this.props.LeftBtnPress();
+              }}
+              hitSlop={{top: 15, left: 15, right: 120, bottom: 15}}>
               <Image
-                source={this.props.LeftBtnIcon ? this.props.LeftBtnIcon : require('../../assets/left-arrow.png')
+                source={
+                  this.props.LeftBtnIcon
+                    ? this.props.LeftBtnIcon
+                    : require('../../assets/left-arrow.png')
                 }
                 style={{
                   height: this.props.height ? this.props.height : hp(3.5),
                   width: this.props.width ? this.props.width : hp(3),
                 }}
-                resizeMode='contain'
+                resizeMode="contain"
               />
             </TouchableOpacity>
           </Left>
 
           {this.props.Title && (
-            <Body style={{ flex: 1.5 }}>
+            <Body style={{flex: 1.5}}>
               <Title
                 style={{
                   color: '#ffffff',
-                  fontSize: 19,
+                  fontSize: 18,
                   fontFamily: 'Lato-Bold',
-                  letterSpacing: 1,
+                  letterSpacing: 0.5,
                 }}>
                 {this.props.Title ? this.props.Title : ''}
               </Title>
             </Body>
           )}
 
-          <Right style={{ flex: 0.65, }}>
+          <Right style={{flex: 0.65}}>
             {this.props.RightBtnIcon1 && (
-              <Button
-                transparent
-                onPress={() => this.props.RightBtnPressOne()}>
+              <Button transparent onPress={() => this.props.RightBtnPressOne()}>
                 <Image
                   source={this.props.RightBtnIcon1}
                   style={{
@@ -75,14 +78,12 @@ export default class _CustomHeader extends Component {
                       ? this.props.rightIconWidth1
                       : hp(3.2),
                   }}
-                  resizeMode='contain'
+                  resizeMode="contain"
                 />
               </Button>
             )}
             {this.props.RightBtnIcon2 && (
-              <Button
-                transparent
-                onPress={() => this.props.RightBtnPressTwo()}>
+              <Button transparent onPress={() => this.props.RightBtnPressTwo()}>
                 <Image
                   source={this.props.RightBtnIcon2}
                   style={{
@@ -93,8 +94,7 @@ export default class _CustomHeader extends Component {
                       ? this.props.rightIconHeight2
                       : hp(3.2),
                   }}
-                  resizeMode='contain'
-
+                  resizeMode="contain"
                 />
               </Button>
             )}
@@ -108,7 +108,6 @@ export default class _CustomHeader extends Component {
             )}
           </Right>
         </Header>
-
       </View>
     );
   }

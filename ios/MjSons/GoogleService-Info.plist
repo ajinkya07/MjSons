@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>522647406488-s3ill3doljcpgl4gjb3826igrba4h96m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.522647406488-s3ill3doljcpgl4gjb3826igrba4h96m</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD03ixRUWWWU4qUYJAZHwzLSELWBAW89wM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>522647406488</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.MjSons</string>
+	<key>PROJECT_ID</key>
+	<string>musk-f02b4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>musk-f02b4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:522647406488:ios:355fd682173a853b77cded</string>
+	<key>DATABASE_URL</key>
+	<string>https://musk-f02b4.firebaseio.com</string>
+</dict>
+</plist>

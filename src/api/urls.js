@@ -1,11 +1,11 @@
-var url = 'http://mjsons.panel.jewelmarts.in/webservices/';
+var url = 'https://mjsons.panel.jewelmarts.in/webservices/';
 
 export const urls = {
-  baseUrl: 'http://mjsons.panel.jewelmarts.in/webservices/',
+  baseUrl: 'https://mjsons.panel.jewelmarts.in/webservices/',
 
-  imageUrl: 'http://mjsons.panel.jewelmarts.in/',
+  imageUrl: 'https://mjsons.panel.jewelmarts.in/',
 
-  // http://swrnsarita.jewelmarts.in/admin_panel/privacy_policy
+  // https://mjsons.panel.jewelmarts.in/admin_panel/privacy_policy
   // muskteck@gmail.com
   Login: {
     url: url + 'User_registration/userLogin',
@@ -135,5 +135,8 @@ export const urls = {
   },
   TotalFilteredCount: {
     url: url + 'Products_Count',
+  },
+  ReadyStockCount: {
+    url: url + 'My_Collection/total_value',
   },
 };
