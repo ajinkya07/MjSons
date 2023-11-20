@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/Users/ajinkya/.gradle/caches/transforms-2/files-2.1/b23ab381698dde15a14d99366d8a5493/cardview-1.0.0/res/values-v23/values-v23.xml",

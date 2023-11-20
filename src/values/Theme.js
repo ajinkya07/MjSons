@@ -24,6 +24,10 @@ export default {
     fontSize: 20,
     fontFamily: 'Lato-Bold',
   },
+  ffLatoBold21: {
+    fontSize: 21,
+    fontFamily: 'Lato-Bold',
+  },
   ffLatoBold32: {
     fontSize: 32,
     fontFamily: 'Lato-Bold',

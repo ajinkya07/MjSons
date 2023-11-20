@@ -1,510 +1,510 @@
 [
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_hide.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_hide.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-xhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_profile_email.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_profile_email.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_version.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_version.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_splash_screen.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/res/mipmap-xhdpi/splash_screen.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_profile_gst.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_profile_gst.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_key.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_key.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_key.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_key.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_selection.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_selection.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_profile_mobile.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_profile_mobile.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_grid2.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_grid2.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_back.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_back.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_profile_lightgrey.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_profile_lightgrey.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-hdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-hdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_back.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_back.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_bg2.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_bg2.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_blueicons_darkcart.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_blueicons_darkcart.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_close1.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_close1.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_account.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_account.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_blueicons_notificationwhite.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_blueicons_notificationwhite.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativepaper_lib_module_assets_backchevron.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativepaper_lib_module_assets_backchevron.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_customeorder_grey.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_customeorder_grey.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_search_5.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_search_5.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcherold.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/src/main/res/mipmap-xxhdpi/ic_launcherold.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_profile_company.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_profile_company.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_blueicons_cross.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_blueicons_cross.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_mjhomeicon.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_mjhomeicon.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_profilepic.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_profilepic.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_remove.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_remove.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_uparrow.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_uparrow.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_shoppingcart.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_shoppingcart.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_customorder_lightgrey.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_customorder_lightgrey.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-xxxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_customorder_bg.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_customorder_bg.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcherold.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/src/main/res/mipmap-mdpi/ic_launcherold.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_entypo.json.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_entypo.json"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_mjhomeicon.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_mjhomeicon.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_materialicons.json.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_materialicons.json"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_profile_location.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_profile_location.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_nativebase_dist_src_basic_icon_nbicons.json.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/raw/node_modules_nativebase_dist_src_basic_icon_nbicons.json"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_category_lightgrey.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_category_lightgrey.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_loginicons_swarn.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_loginicons_swarn.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativepaper_lib_module_assets_backchevron.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativepaper_lib_module_assets_backchevron.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_heart.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_heart.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_greycart.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_greycart.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_about.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_about.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_forwardarrow.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_forwardarrow.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_backg1.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_backg1.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_nativebase_dist_src_basic_icon_selection.json.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/raw/node_modules_nativebase_dist_src_basic_icon_selection.json"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_materialicons.json.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_materialicons.json"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_blueicons_notificationwhite.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_blueicons_notificationwhite.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_loginicons_swarn.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_loginicons_swarn.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_cart_grey.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_cart_grey.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_home_grey.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_home_grey.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-hdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-hdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_splash_screen.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/src/main/res/mipmap-xxhdpi/splash_screen.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_feather.json.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_feather.json"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-xhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_cart_lightgrey.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_cart_lightgrey.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_close.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_close.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_cross.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_cross.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcherold.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/res/mipmap-xxxhdpi/ic_launcherold.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_back_button.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_back_button.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_category_lightgrey.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_category_lightgrey.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_selection.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_selection.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_splash_screen.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/res/mipmap-xxhdpi/splash_screen.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_sortline.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_sortline.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_antdesign.json.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_antdesign.json"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_nativebase_dist_src_basic_icon_nbicons.json.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/raw/node_modules_nativebase_dist_src_basic_icon_nbicons.json"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/layout_launch_screen.xml.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/res/layout/launch_screen.xml"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_delete.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_delete.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/raw_app.json.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/raw/app.json"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_delete.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_delete.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/mipmap-hdpi_splash_screen.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/res/mipmap-hdpi/splash_screen.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_blueicons_searchwhite.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_blueicons_searchwhite.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_uparrow.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_uparrow.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_downarrow.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_downarrow.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_cross.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_cross.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_forwardarrow.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_forwardarrow.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcherold.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/src/main/res/mipmap-xxxhdpi/ic_launcherold.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_blueicons_date.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_blueicons_date.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_foundation.json.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_foundation.json"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_share.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_share.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_default.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_default.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_profie_grey.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_profie_grey.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_cart1.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_cart1.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_skychainlogo.jpeg.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_skychainlogo.jpeg"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_home_lightgrey.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_home_lightgrey.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_email.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_email.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_blueicons_cross.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_blueicons_cross.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_profile_desg.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_profile_desg.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_logout.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_logout.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_customorder.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_customorder.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_grid2.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_grid2.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_logout.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_logout.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-xxxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/mipmap-mdpi_splash_screen.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/src/main/res/mipmap-mdpi/splash_screen.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_cross.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_cross.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_zocial.json.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_zocial.json"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_loginicons_unhide.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_loginicons_unhide.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_exclusive.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_exclusive.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_plus_green.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_plus_green.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_splash_screen.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/src/main/res/mipmap-xhdpi/splash_screen.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_profile_mobile.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_profile_mobile.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_filter.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_filter.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tick.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tick.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_editicon.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_editicon.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/mipmap-mdpi_splash_screen.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/res/mipmap-mdpi/splash_screen.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_profie_grey.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_profie_grey.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_sortline.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_sortline.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_dategrey.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_dategrey.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_dategrey.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_dategrey.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_blueicons_searchwhite.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_blueicons_searchwhite.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_loginicons_hide.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_loginicons_hide.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_category_grey.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_category_grey.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_blueicons_tick.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_blueicons_tick.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_like.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_like.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcherold.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/src/main/res/mipmap-xhdpi/ic_launcherold.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backiconmask.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backiconmask.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_blueicons_heart.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_blueicons_heart.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcherold.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/res/mipmap-xhdpi/ic_launcherold.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_cart_grey.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_cart_grey.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_home_lightgrey.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_home_lightgrey.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/layout_launch_screen.xml.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/src/main/res/layout/launch_screen.xml"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_downarrow.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_downarrow.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_message.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_message.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_profile_company.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_profile_company.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_blueicons_mobile.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_blueicons_mobile.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_feather.json.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_feather.json"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_splash_screen.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/res/mipmap-xxxhdpi/splash_screen.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tick.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tick.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_close1.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_close1.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_ionicons.json.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_ionicons.json"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_cross.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_cross.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_share.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_share.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_minusblock.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_minusblock.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_blueicons_date.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_blueicons_date.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_like.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_like.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_blueicons_tick.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_blueicons_tick.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_email.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_email.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_default.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_default.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_octicons.json.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_octicons.json"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_version.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_version.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/mipmap-hdpi_splash_screen.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/src/main/res/mipmap-hdpi/splash_screen.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_evilicons.json.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_evilicons.json"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_sort.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_sort.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_loginicons_unhide.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_loginicons_unhide.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_profile_desg.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_profile_desg.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_shoppingcart.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_shoppingcart.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_customorder_lightgrey.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_customorder_lightgrey.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_blueicons_darkcart.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_blueicons_darkcart.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_back_button.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_back_button.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_antdesign.json.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_antdesign.json"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_exclusive.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_exclusive.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_profile_editfill.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_profile_editfill.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_bg2.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_bg2.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_minusblock.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_minusblock.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_plusblock.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_plusblock.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_forwardarrow.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_forwardarrow.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_cart_lightgrey.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_cart_lightgrey.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_blueicons_mobile.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_blueicons_mobile.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_email.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_email.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_close.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_close.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_customeorder_grey.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_customeorder_grey.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_rate.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_rate.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_cart1.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_cart1.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_entypo.json.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_entypo.json"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontisto.json.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontisto.json"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_email.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_email.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_profile_gst.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_profile_gst.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_profile_editfill.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_profile_editfill.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_skychainlogo.jpeg.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_skychainlogo.jpeg"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_ionicons.json.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_ionicons.json"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_remove.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_remove.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_heartring.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_heartring.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_forward2.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_forward2.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome.json.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome.json"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome.json.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome.json"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_message.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_message.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_foundation.json.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_foundation.json"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_customorder_bg.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_customorder_bg.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_profile_email.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_profile_email.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_whatsapp.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_whatsapp.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcherold.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/res/mipmap-mdpi/ic_launcherold.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_heartring.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_heartring.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcherold.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/res/mipmap-xxhdpi/ic_launcherold.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_splash_screen.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/src/main/res/mipmap-xxxhdpi/splash_screen.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_delete.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_delete.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_backg1.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_backg1.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_rate.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_rate.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_leftarrow.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_leftarrow.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcherold.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/res/mipmap-hdpi/ic_launcherold.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_plus_green.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_plus_green.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_hide.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_hide.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_category_grey.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_category_grey.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_delete.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_delete.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontisto.json.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontisto.json"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_forwardarrow.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_forwardarrow.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_greyheart.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_greyheart.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_home_grey.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_home_grey.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_forward2.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_forward2.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_whatsapp.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_whatsapp.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_plusblock.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_plusblock.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_editicon.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_editicon.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_heart.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_heart.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_simplelineicons.json.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_simplelineicons.json"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/raw_app.json.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/raw/app.json"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_organisation.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_organisation.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_sort.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_sort.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_zocial.json.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_zocial.json"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_account.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_account.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_leftarrow.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_leftarrow.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_about.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_about.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_organisation.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_organisation.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_evilicons.json.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_evilicons.json"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_filter.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_filter.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcherold.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/src/main/res/mipmap-hdpi/ic_launcherold.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_greycart.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_greycart.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_tabs_profile_lightgrey.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_tabs_profile_lightgrey.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_octicons.json.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_octicons.json"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_nativebase_dist_src_basic_icon_selection.json.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/raw/node_modules_nativebase_dist_src_basic_icon_selection.json"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_profilepic.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_profilepic.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_search_5.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_search_5.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_profile_location.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_profile_location.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_gif_nodata.gif.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_gif_nodata.gif"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_account_customorder.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_account_customorder.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_simplelineicons.json.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_simplelineicons.json"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_greyheart.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_greyheart.png"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_loginicons_hide.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_loginicons_hide.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_gif_nodata.gif.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_gif_nodata.gif"
     },
     {
-        "merged": "/Users/ajinkya/Desktop/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backiconmask.png.flat",
-        "source": "/Users/ajinkya/Desktop/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backiconmask.png"
+        "merged": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_blueicons_heart.png.flat",
+        "source": "/Users/ajinkya/Desktop/Muskseed/MjSons/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_blueicons_heart.png"
     }
 ]

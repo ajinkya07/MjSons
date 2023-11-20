@@ -17,12 +17,12 @@ import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 import com.reactnativecommunity.checkbox.ReactCheckBoxPackage;
 // @react-native-community/clipboard
 import com.reactnativecommunity.clipboard.ClipboardPackage;
-// @react-native-community/picker
-import com.reactnativecommunity.picker.RNCPickerPackage;
 // @react-native-community/datetimepicker
 import com.reactcommunity.rndatetimepicker.RNDateTimePickerPackage;
 // @react-native-community/masked-view
 import org.reactnative.maskedview.RNCMaskedViewPackage;
+// @react-native-community/picker
+import com.reactnativecommunity.picker.RNCPickerPackage;
 // @react-native-firebase/app
 import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
 // @react-native-firebase/messaging
@@ -33,12 +33,12 @@ import com.dylanvann.fastimage.FastImageViewPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 // react-native-image-crop-picker
 import com.reactnative.ivpusic.imagepicker.PickerPackage;
-// react-native-push-notification
-import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 // react-native-reanimated
 import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-safe-area-context
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
+// react-native-screenguard
+import com.screenguard.ScreenGuardPackage;
 // react-native-screens
 import com.swmansion.rnscreens.RNScreensPackage;
 // react-native-share
@@ -97,17 +97,17 @@ public class PackageList {
       new AsyncStoragePackage(),
       new ReactCheckBoxPackage(),
       new ClipboardPackage(),
-      new RNCPickerPackage(),
       new RNDateTimePickerPackage(),
       new RNCMaskedViewPackage(),
+      new RNCPickerPackage(),
       new ReactNativeFirebaseAppPackage(),
       new ReactNativeFirebaseMessagingPackage(),
       new FastImageViewPackage(),
       new RNGestureHandlerPackage(),
       new PickerPackage(),
-      new ReactNativePushNotificationPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
+      new ScreenGuardPackage(),
       new RNScreensPackage(),
       new RNSharePackage(),
       new SplashScreenReactPackage(),

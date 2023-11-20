@@ -8,6 +8,7 @@ import configureStore from '@redux/store';
 import SplashScreen from 'react-native-splash-screen';
 import AsyncStorage from '@react-native-community/async-storage';
 import {fcmService} from './DS/FCMService';
+import ScreenGuardModule from 'react-native-screenguard';
 
 const store = configureStore();
 
@@ -26,7 +27,17 @@ class App extends React.Component {
       this.onNotification,
       this.onOpenNotification,
     );
+
+    if (Platform.OS === 'ios') {
+      ScreenGuardModule.register('#000000', _ => {
+        alert('Can not take screenshots');
+      });
+    }
   };
+
+  componentWillUnmount() {
+    ScreenGuardModule.unregister();
+  }
 
   onRegister = token => {
     AsyncStorage.setItem('fcmToken', token);

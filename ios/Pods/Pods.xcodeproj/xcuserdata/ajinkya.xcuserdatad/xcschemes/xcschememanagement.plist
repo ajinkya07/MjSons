@@ -329,6 +329,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>react-native-screenguard.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>react-native-splash-screen.xcscheme</key>
 		<dict>
 			<key>isShown</key>

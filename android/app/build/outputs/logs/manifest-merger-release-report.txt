@@ -1,35 +1,35 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:1:1-19:12
-INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:1:1-19:12
-INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:1:1-19:12
-INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:1:1-19:12
-MERGED from [:react-native-community_async-storage] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_checkbox] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_clipboard] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/clipboard/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_picker] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_datetimepicker] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-13:12
-MERGED from [:react-native-community_masked-view] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-45:12
-MERGED from [:react-native-firebase_app] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-fast-image] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-fast-image/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-gesture-handler] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-28:12
-MERGED from [:react-native-push-notification] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-reanimated] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-safe-area-context] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-screens] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-share] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-23:12
-MERGED from [:react-native-splash-screen] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-14:12
-MERGED from [:react-native-vector-icons] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-webview] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-23:12
+ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:1:1-19:12
+MERGED from [:react-native-community_async-storage] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_checkbox] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_clipboard] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/clipboard/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_datetimepicker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-community_masked-view] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-45:12
+MERGED from [:react-native-firebase_app] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-fast-image] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-fast-image/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-28:12
+MERGED from [:react-native-reanimated] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screenguard] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-screenguard/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-screens] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-share] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-23:12
+MERGED from [:react-native-splash-screen] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-14:12
+MERGED from [:react-native-vector-icons] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-webview] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-23:12
 MERGED from [com.facebook.react:react-native:0.64.4] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ed7cc4a0e4a78a700ed7f5fb1afd8cd6/jetified-react-native-0.64.4/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/f0d92c76ac842788f4e354f1c0348b67/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/2b313c22aefa462b4ae8606839555b95/jetified-android-jsc-r245459/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.multidex:multidex:2.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/174570582638bd878fa2fe69e12ce296/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/715577c12a4d3f0a3c4871fdda9dce15/jetified-fresco-2.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:animated-gif:2.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/31e3bd080f20ddfb4a98b4b793da4bab/jetified-animated-gif-2.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:17:1-58:12
+MERGED from [com.google.firebase:firebase-messaging:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/272c0b9c29f7ac06f4192e5f5298b1d2/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:17:1-45:12
 MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ce67a1ef11f176b465b582904959fed0/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:15:1-34:12
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ba2cafc36b9293b2a2f32008ee32381e/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/feefebdc8ec63745a6f8977e8fabdcbb/jetified-transport-runtime-2.2.5/AndroidManifest.xml:15:1-41:12
@@ -50,38 +50,28 @@ MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/ajinkya/.gradle/cach
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/b5acef5de329d43c75d73898c0a610c1/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8756a4a1b28a782f4c7434482677b953/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/cd5fb0071cbc21970fc3d079c98266e1/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39ad06bf8538a52115b76c02cb19bac2/jetified-play-services-auth-18.1.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4aca5ebb8bc1aab19c7925eb2ab19adc/jetified-play-services-auth-19.0.0/AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/f0413680fd8106c9aa21337367d0dec3/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/91096b674d51146cb028f0d82f8f5339/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/2579d5695998371fc9da09e9afd422c7/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/21927a8180efebde93f368a3ac143faf/jetified-play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/156793912a70bf1565b8f729d2875170/jetified-firebase-iid-21.1.0/AndroidManifest.xml:17:1-38:12
-MERGED from [com.google.firebase:firebase-core:17.5.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4858819af841fde5e2adf2c77292f2f5/jetified-firebase-core-17.5.1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-analytics:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/67218c018c28f8dfd0d4c41bf87eb488/jetified-firebase-analytics-17.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e76d99d94460f738cb5232679ab31bf8/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/371b50bd6844a69fe4afaa71eba29cce/jetified-firebase-installations-16.3.5/AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/7ca1ecc5fc5ad743dc73f8b625b32657/jetified-firebase-common-19.5.0/AndroidManifest.xml:15:1-49:12
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/560f02eb4879dd4292df069ecc8b32f8/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:2:1-13:12
-MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/bb9418d4d89851ad766a7c57e1732cf9/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/572c5751b317a5d902dfeeca250511c3/jetified-firebase-installations-interop-16.0.1/AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8f65dbdcfe569455e3d6d815daa5a6bb/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:17:1-46:12
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39bf7a89368d7c427899b12d37a207ba/jetified-play-services-measurement-sdk-17.6.0/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/52e6436f5e1ed631b959e6f08ffc68ac/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/5e0d979659ace39f1be8989d58cd3217/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/96a8b8b6cd6414198ba873bd36e9cd23/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d93019542474b223facf92e9b8c4756e/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ac74c9503f2a4ec41cea7bedc3743995/jetified-play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:17:1-27:12
-MERGED from [com.google.android.gms:play-services-measurement-base:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/c536427971fec0d4b661870cbdfce187/jetified-play-services-measurement-base-17.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/345ab3ac7d764c8b10080acb609ca770/jetified-play-services-basement-17.1.1/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/1fb068f983f3fbc2faa5711349d66ef2/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.2.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/028b46f84c892467fa3bf9bea19155fe/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/cdd4b60ad8e178814597610e6bd16697/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/417c6a404600999e4511391f19f3e470/webkit-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8d172c177ff0a8e5dbec9a932219052e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4fd06f21cf3b182e1646d0d701171e3e/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a65b0d7abd466f95ef04abef4b13a29f/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.exifinterface:exifinterface:1.1.0-beta01] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/1304983520914e48e539d24403041ba1/exifinterface-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/00e30590941bce38513489138f67c0e5/jetified-firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
-MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/612f4e830d191fb5a1ebfbd792aba69c/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4fd8cf7271f8e30dadd908cc177ccf32/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/c59fe6f1617d9e81affa9d4b2f6badab/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/07e41c99ae9fd78958f8f3c875e7287e/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -95,98 +85,93 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ajin
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ff5def1e945b45657b1513128cfefa52/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/0fa70d4116f6c47875ebd64c0256665b/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/b23ab381698dde15a14d99366d8a5493/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ef2392a1fbd89a7da41d86169e6a47f2/jetified-transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/00e30590941bce38513489138f67c0e5/jetified-firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/612f4e830d191fb5a1ebfbd792aba69c/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/c45c3ade7f9d95169dd8514e91353b13/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/c8d56ae1413fc702191a092d6ddd56e6/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/c18561bff2f10ed21bf714dcddb5113b/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/5ad2a6c77a471c77fbad3feae655c7b0/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/c32485061b7c11da3b3748bedfd17a96/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ef2392a1fbd89a7da41d86169e6a47f2/jetified-transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/6838ec1c06a88d206cbf29deb1cb7a59/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/be9f2ddc0bea934d2f7cd1476524ba53/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/1ee4798729735cc28d454ce1c049462c/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e2aebb060d66a22f32f5bcf68fd551c2/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:1:1-19:12
-INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:1:1-19:12
-INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:1:1-19:12
 	package
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:1:70-90
-		INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:1:70-90
+		INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:1:1-19:12
-		INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:1:1-19:12
+		INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:1:1-19:12
-		INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:1:1-19:12
+		INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:3:3-65
-MERGED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-67
-MERGED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-67
+ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:3:3-65
+MERGED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ba2cafc36b9293b2a2f32008ee32381e/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ba2cafc36b9293b2a2f32008ee32381e/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/156793912a70bf1565b8f729d2875170/jetified-firebase-iid-21.1.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/156793912a70bf1565b8f729d2875170/jetified-firebase-iid-21.1.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e76d99d94460f738cb5232679ab31bf8/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e76d99d94460f738cb5232679ab31bf8/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/371b50bd6844a69fe4afaa71eba29cce/jetified-firebase-installations-16.3.5/AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/371b50bd6844a69fe4afaa71eba29cce/jetified-firebase-installations-16.3.5/AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/560f02eb4879dd4292df069ecc8b32f8/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/560f02eb4879dd4292df069ecc8b32f8/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/52e6436f5e1ed631b959e6f08ffc68ac/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/52e6436f5e1ed631b959e6f08ffc68ac/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ac74c9503f2a4ec41cea7bedc3743995/jetified-play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ac74c9503f2a4ec41cea7bedc3743995/jetified-play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:3:20-62
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:3:20-62
 uses-permission#android.permission.CAMERA
-ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:4:3-62
+ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:4:3-62
 	android:name
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:4:20-60
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:4:20-60
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:5:3-79
+ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:5:3-79
 	android:name
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:5:20-76
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:5:20-76
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:6:3-64
+ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:6:3-64
 	android:name
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:6:20-61
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:6:20-61
 uses-feature#android.hardware.camera
-ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:7:3-83
+ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:7:3-83
 	android:required
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:7:56-80
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:7:56-80
 	android:name
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:7:17-55
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:7:17-55
 uses-feature#android.hardware.camera.front
-ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:8:3-89
+ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:8:3-89
 	android:required
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:8:62-86
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:8:62-86
 	android:name
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:8:17-61
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:8:17-61
 application
-ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:10:3-17:17
-MERGED from [:react-native-community_datetimepicker] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-20
-MERGED from [:react-native-community_datetimepicker] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-20
-MERGED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-43:19
-MERGED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-43:19
-MERGED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-26:19
-MERGED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-26:19
-MERGED from [:react-native-share] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
-MERGED from [:react-native-share] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
-MERGED from [:react-native-splash-screen] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-12:19
-MERGED from [:react-native-splash-screen] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-12:19
-MERGED from [:react-native-webview] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
-MERGED from [:react-native-webview] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
+ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:10:3-17:17
+MERGED from [:react-native-community_datetimepicker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-community_datetimepicker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-43:19
+MERGED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-43:19
+MERGED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-26:19
+MERGED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-26:19
+MERGED from [:react-native-screenguard] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-screenguard/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-13:19
+MERGED from [:react-native-screenguard] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-screenguard/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-13:19
+MERGED from [:react-native-share] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-share] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-splash-screen] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-splash-screen] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-webview] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
 MERGED from [com.facebook.react:react-native:0.64.4] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ed7cc4a0e4a78a700ed7f5fb1afd8cd6/jetified-react-native-0.64.4/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.64.4] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ed7cc4a0e4a78a700ed7f5fb1afd8cd6/jetified-react-native-0.64.4/AndroidManifest.xml:11:5-20
-MERGED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:27:5-56:19
-MERGED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-messaging:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/272c0b9c29f7ac06f4192e5f5298b1d2/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:22:5-43:19
+MERGED from [com.google.firebase:firebase-messaging:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/272c0b9c29f7ac06f4192e5f5298b1d2/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:22:5-43:19
 MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ce67a1ef11f176b465b582904959fed0/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ce67a1ef11f176b465b582904959fed0/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ba2cafc36b9293b2a2f32008ee32381e/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
@@ -201,40 +186,24 @@ MERGED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/ajinky
 MERGED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/117371cbaa60254c4f9b5cc6f71d5780/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:10:5-14:19
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/dedff52b59daa9307a013d7e237c95fd/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/dedff52b59daa9307a013d7e237c95fd/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
-MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39ad06bf8538a52115b76c02cb19bac2/jetified-play-services-auth-18.1.0/AndroidManifest.xml:22:5-38:19
-MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39ad06bf8538a52115b76c02cb19bac2/jetified-play-services-auth-18.1.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4aca5ebb8bc1aab19c7925eb2ab19adc/jetified-play-services-auth-19.0.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4aca5ebb8bc1aab19c7925eb2ab19adc/jetified-play-services-auth-19.0.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/2579d5695998371fc9da09e9afd422c7/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/2579d5695998371fc9da09e9afd422c7/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/21927a8180efebde93f368a3ac143faf/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/21927a8180efebde93f368a3ac143faf/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/156793912a70bf1565b8f729d2875170/jetified-firebase-iid-21.1.0/AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/156793912a70bf1565b8f729d2875170/jetified-firebase-iid-21.1.0/AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-core:17.5.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4858819af841fde5e2adf2c77292f2f5/jetified-firebase-core-17.5.1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-core:17.5.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4858819af841fde5e2adf2c77292f2f5/jetified-firebase-core-17.5.1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-analytics:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/67218c018c28f8dfd0d4c41bf87eb488/jetified-firebase-analytics-17.6.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-analytics:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/67218c018c28f8dfd0d4c41bf87eb488/jetified-firebase-analytics-17.6.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e76d99d94460f738cb5232679ab31bf8/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e76d99d94460f738cb5232679ab31bf8/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/371b50bd6844a69fe4afaa71eba29cce/jetified-firebase-installations-16.3.5/AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/371b50bd6844a69fe4afaa71eba29cce/jetified-firebase-installations-16.3.5/AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/7ca1ecc5fc5ad743dc73f8b625b32657/jetified-firebase-common-19.5.0/AndroidManifest.xml:25:5-47:19
 MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/7ca1ecc5fc5ad743dc73f8b625b32657/jetified-firebase-common-19.5.0/AndroidManifest.xml:25:5-47:19
-MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/bb9418d4d89851ad766a7c57e1732cf9/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/bb9418d4d89851ad766a7c57e1732cf9/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8f65dbdcfe569455e3d6d815daa5a6bb/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8f65dbdcfe569455e3d6d815daa5a6bb/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:28:5-44:19
-MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:28:5-44:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39bf7a89368d7c427899b12d37a207ba/jetified-play-services-measurement-sdk-17.6.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39bf7a89368d7c427899b12d37a207ba/jetified-play-services-measurement-sdk-17.6.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/52e6436f5e1ed631b959e6f08ffc68ac/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:28:5-29:19
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/52e6436f5e1ed631b959e6f08ffc68ac/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:28:5-29:19
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/5e0d979659ace39f1be8989d58cd3217/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/5e0d979659ace39f1be8989d58cd3217/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/96a8b8b6cd6414198ba873bd36e9cd23/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/96a8b8b6cd6414198ba873bd36e9cd23/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d93019542474b223facf92e9b8c4756e/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d93019542474b223facf92e9b8c4756e/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/c536427971fec0d4b661870cbdfce187/jetified-play-services-measurement-base-17.6.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/c536427971fec0d4b661870cbdfce187/jetified-play-services-measurement-base-17.6.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/345ab3ac7d764c8b10080acb609ca770/jetified-play-services-basement-17.1.1/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/345ab3ac7d764c8b10080acb609ca770/jetified-play-services-basement-17.1.1/AndroidManifest.xml:22:5-26:19
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a65b0d7abd466f95ef04abef4b13a29f/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
@@ -246,87 +215,87 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ajin
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/b20ae0af2ef1af3f3a13349b57e624e0/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:10:48-80
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:10:48-80
 	android:largeHeap
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:10:212-236
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:10:212-236
 	android:icon
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:10:81-115
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:10:81-115
 	android:allowBackup
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:10:116-143
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:10:116-143
 	android:theme
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:10:144-175
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:10:144-175
 	android:usesCleartextTraffic
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:10:176-211
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:10:176-211
 	android:name
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:10:16-47
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:10:16-47
 activity#com.mjsons.MainActivity
-ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:11:5-16:16
+ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:11:5-16:16
 	android:screenOrientation
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:11:254-290
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:11:254-290
 	android:label
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:11:44-76
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:11:44-76
 	android:launchMode
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:11:155-186
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:11:155-186
 	android:windowSoftInputMode
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:11:187-229
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:11:187-229
 	android:exported
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:11:230-253
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:11:230-253
 	android:configChanges
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:11:77-154
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:11:77-154
 	android:name
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:11:15-43
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:11:15-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:12:7-15:23
+ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:12:7-15:23
 action#android.intent.action.MAIN
-ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:13:9-61
+ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:13:9-61
 	android:name
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:13:17-58
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:13:17-58
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:14:9-69
+ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:14:9-69
 	android:name
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml:14:19-66
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml:14:19-66
 uses-sdk
-INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-community_async-storage] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_async-storage] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_checkbox] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_checkbox] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_clipboard] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/clipboard/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_clipboard] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/clipboard/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_picker] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_picker] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_datetimepicker] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-community_datetimepicker] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-community_masked-view] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_masked-view] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_app] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_app] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-fast-image] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-fast-image/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-fast-image] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-fast-image/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:6:5-8:41
-MERGED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:6:5-8:41
-MERGED from [:react-native-push-notification] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-push-notification] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-safe-area-context] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-screens] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-share] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-share] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-splash-screen] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-splash-screen] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-webview] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-webview] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-community_async-storage] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_clipboard] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/clipboard/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_clipboard] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/clipboard/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_datetimepicker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_masked-view] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_app] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_app] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fast-image] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-fast-image/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fast-image] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-fast-image/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-reanimated] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screenguard] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-screenguard/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screenguard] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-screenguard/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-share] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-share] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-splash-screen] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.64.4] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ed7cc4a0e4a78a700ed7f5fb1afd8cd6/jetified-react-native-0.64.4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.64.4] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ed7cc4a0e4a78a700ed7f5fb1afd8cd6/jetified-react-native-0.64.4/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/f0d92c76ac842788f4e354f1c0348b67/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -339,8 +308,8 @@ MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/ajinkya/.gradle/caches/tra
 MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/715577c12a4d3f0a3c4871fdda9dce15/jetified-fresco-2.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:animated-gif:2.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/31e3bd080f20ddfb4a98b4b793da4bab/jetified-animated-gif-2.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:animated-gif:2.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/31e3bd080f20ddfb4a98b4b793da4bab/jetified-animated-gif-2.0.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/272c0b9c29f7ac06f4192e5f5298b1d2/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/272c0b9c29f7ac06f4192e5f5298b1d2/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ce67a1ef11f176b465b582904959fed0/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ce67a1ef11f176b465b582904959fed0/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ba2cafc36b9293b2a2f32008ee32381e/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
@@ -381,50 +350,32 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ajink
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8756a4a1b28a782f4c7434482677b953/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/cd5fb0071cbc21970fc3d079c98266e1/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/cd5fb0071cbc21970fc3d079c98266e1/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39ad06bf8538a52115b76c02cb19bac2/jetified-play-services-auth-18.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39ad06bf8538a52115b76c02cb19bac2/jetified-play-services-auth-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4aca5ebb8bc1aab19c7925eb2ab19adc/jetified-play-services-auth-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4aca5ebb8bc1aab19c7925eb2ab19adc/jetified-play-services-auth-19.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/f0413680fd8106c9aa21337367d0dec3/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/f0413680fd8106c9aa21337367d0dec3/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/91096b674d51146cb028f0d82f8f5339/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/91096b674d51146cb028f0d82f8f5339/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/2579d5695998371fc9da09e9afd422c7/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/2579d5695998371fc9da09e9afd422c7/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/21927a8180efebde93f368a3ac143faf/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/21927a8180efebde93f368a3ac143faf/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/156793912a70bf1565b8f729d2875170/jetified-firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/156793912a70bf1565b8f729d2875170/jetified-firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-core:17.5.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4858819af841fde5e2adf2c77292f2f5/jetified-firebase-core-17.5.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-core:17.5.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4858819af841fde5e2adf2c77292f2f5/jetified-firebase-core-17.5.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-analytics:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/67218c018c28f8dfd0d4c41bf87eb488/jetified-firebase-analytics-17.6.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-analytics:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/67218c018c28f8dfd0d4c41bf87eb488/jetified-firebase-analytics-17.6.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e76d99d94460f738cb5232679ab31bf8/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e76d99d94460f738cb5232679ab31bf8/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/371b50bd6844a69fe4afaa71eba29cce/jetified-firebase-installations-16.3.5/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/371b50bd6844a69fe4afaa71eba29cce/jetified-firebase-installations-16.3.5/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/7ca1ecc5fc5ad743dc73f8b625b32657/jetified-firebase-common-19.5.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/7ca1ecc5fc5ad743dc73f8b625b32657/jetified-firebase-common-19.5.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/560f02eb4879dd4292df069ecc8b32f8/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/560f02eb4879dd4292df069ecc8b32f8/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/bb9418d4d89851ad766a7c57e1732cf9/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/bb9418d4d89851ad766a7c57e1732cf9/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/572c5751b317a5d902dfeeca250511c3/jetified-firebase-installations-interop-16.0.1/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/572c5751b317a5d902dfeeca250511c3/jetified-firebase-installations-interop-16.0.1/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8f65dbdcfe569455e3d6d815daa5a6bb/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8f65dbdcfe569455e3d6d815daa5a6bb/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39bf7a89368d7c427899b12d37a207ba/jetified-play-services-measurement-sdk-17.6.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39bf7a89368d7c427899b12d37a207ba/jetified-play-services-measurement-sdk-17.6.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/52e6436f5e1ed631b959e6f08ffc68ac/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/52e6436f5e1ed631b959e6f08ffc68ac/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/5e0d979659ace39f1be8989d58cd3217/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/5e0d979659ace39f1be8989d58cd3217/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/96a8b8b6cd6414198ba873bd36e9cd23/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/96a8b8b6cd6414198ba873bd36e9cd23/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d93019542474b223facf92e9b8c4756e/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d93019542474b223facf92e9b8c4756e/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ac74c9503f2a4ec41cea7bedc3743995/jetified-play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ac74c9503f2a4ec41cea7bedc3743995/jetified-play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/c536427971fec0d4b661870cbdfce187/jetified-play-services-measurement-base-17.6.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/c536427971fec0d4b661870cbdfce187/jetified-play-services-measurement-base-17.6.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/345ab3ac7d764c8b10080acb609ca770/jetified-play-services-basement-17.1.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/345ab3ac7d764c8b10080acb609ca770/jetified-play-services-basement-17.1.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/1fb068f983f3fbc2faa5711349d66ef2/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
@@ -433,6 +384,8 @@ MERGED from [androidx.fragment:fragment:1.2.1] /Users/ajinkya/.gradle/caches/tra
 MERGED from [androidx.fragment:fragment:1.2.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/028b46f84c892467fa3bf9bea19155fe/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/cdd4b60ad8e178814597610e6bd16697/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/cdd4b60ad8e178814597610e6bd16697/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/417c6a404600999e4511391f19f3e470/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/417c6a404600999e4511391f19f3e470/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8d172c177ff0a8e5dbec9a932219052e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8d172c177ff0a8e5dbec9a932219052e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4fd06f21cf3b182e1646d0d701171e3e/loader-1.0.0/AndroidManifest.xml:20:5-44
@@ -441,10 +394,6 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/ajinkya/.gradle
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a65b0d7abd466f95ef04abef4b13a29f/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.exifinterface:exifinterface:1.1.0-beta01] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/1304983520914e48e539d24403041ba1/exifinterface-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.1.0-beta01] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/1304983520914e48e539d24403041ba1/exifinterface-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/00e30590941bce38513489138f67c0e5/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/00e30590941bce38513489138f67c0e5/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/612f4e830d191fb5a1ebfbd792aba69c/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/612f4e830d191fb5a1ebfbd792aba69c/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4fd8cf7271f8e30dadd908cc177ccf32/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4fd8cf7271f8e30dadd908cc177ccf32/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/c59fe6f1617d9e81affa9d4b2f6badab/viewpager-1.0.0/AndroidManifest.xml:20:5-44
@@ -471,8 +420,10 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/ajinkya/.gradl
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/0fa70d4116f6c47875ebd64c0256665b/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/b23ab381698dde15a14d99366d8a5493/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/b23ab381698dde15a14d99366d8a5493/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ef2392a1fbd89a7da41d86169e6a47f2/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ef2392a1fbd89a7da41d86169e6a47f2/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/00e30590941bce38513489138f67c0e5/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/00e30590941bce38513489138f67c0e5/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/612f4e830d191fb5a1ebfbd792aba69c/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/612f4e830d191fb5a1ebfbd792aba69c/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/c45c3ade7f9d95169dd8514e91353b13/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/c45c3ade7f9d95169dd8514e91353b13/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/c8d56ae1413fc702191a092d6ddd56e6/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
@@ -483,6 +434,8 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/ajinkya/.g
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/5ad2a6c77a471c77fbad3feae655c7b0/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/c32485061b7c11da3b3748bedfd17a96/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/c32485061b7c11da3b3748bedfd17a96/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ef2392a1fbd89a7da41d86169e6a47f2/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ef2392a1fbd89a7da41d86169e6a47f2/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/6838ec1c06a88d206cbf29deb1cb7a59/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/6838ec1c06a88d206cbf29deb1cb7a59/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/be9f2ddc0bea934d2f7cd1476524ba53/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
@@ -491,206 +444,172 @@ MERGED from [androidx.print:print:1.0.0] /Users/ajinkya/.gradle/caches/transform
 MERGED from [androidx.print:print:1.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/1ee4798729735cc28d454ce1c049462c/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e2aebb060d66a22f32f5bcf68fd551c2/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e2aebb060d66a22f32f5bcf68fd551c2/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
-MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
-MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
-INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ajinkya/Desktop/MjSons/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ajinkya/Desktop/Muskseed/MjSons/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-68
-MERGED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:23:5-68
-MERGED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:23:5-68
-MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/156793912a70bf1565b8f729d2875170/jetified-firebase-iid-21.1.0/AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/156793912a70bf1565b8f729d2875170/jetified-firebase-iid-21.1.0/AndroidManifest.xml:24:5-68
-MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e76d99d94460f738cb5232679ab31bf8/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:24:5-68
-MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e76d99d94460f738cb5232679ab31bf8/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:24:5-68
+ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-68
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/560f02eb4879dd4292df069ecc8b32f8/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/560f02eb4879dd4292df069ecc8b32f8/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
-MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/52e6436f5e1ed631b959e6f08ffc68ac/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/52e6436f5e1ed631b959e6f08ffc68ac/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ac74c9503f2a4ec41cea7bedc3743995/jetified-play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ac74c9503f2a4ec41cea7bedc3743995/jetified-play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-65
+		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-79
-MERGED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:22:5-79
+ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ba2cafc36b9293b2a2f32008ee32381e/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ba2cafc36b9293b2a2f32008ee32381e/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/feefebdc8ec63745a6f8977e8fabdcbb/jetified-transport-runtime-2.2.5/AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/feefebdc8ec63745a6f8977e8fabdcbb/jetified-transport-runtime-2.2.5/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/156793912a70bf1565b8f729d2875170/jetified-firebase-iid-21.1.0/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/156793912a70bf1565b8f729d2875170/jetified-firebase-iid-21.1.0/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e76d99d94460f738cb5232679ab31bf8/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e76d99d94460f738cb5232679ab31bf8/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/371b50bd6844a69fe4afaa71eba29cce/jetified-firebase-installations-16.3.5/AndroidManifest.xml:10:5-79
 MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/371b50bd6844a69fe4afaa71eba29cce/jetified-firebase-installations-16.3.5/AndroidManifest.xml:10:5-79
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/560f02eb4879dd4292df069ecc8b32f8/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/560f02eb4879dd4292df069ecc8b32f8/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
-MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/52e6436f5e1ed631b959e6f08ffc68ac/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/52e6436f5e1ed631b959e6f08ffc68ac/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ac74c9503f2a4ec41cea7bedc3743995/jetified-play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ac74c9503f2a4ec41cea7bedc3743995/jetified-play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:22-76
+		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:22-76
 service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
-ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:9-111
+ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:9-111
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:18-108
+		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:18-108
 service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
-ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-23:19
+ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-23:19
 	android:exported
-		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-37
+		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-95
+		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-95
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-22:29
+ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-22:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:17-78
+ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:17-78
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:25-75
+		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:25-75
 receiver#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
-ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:9-32:20
+ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:9-32:20
 	android:exported
-		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:13-36
+		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:13-36
 	android:permission
-		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:28:13-73
+		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:28:13-73
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:13-96
+		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:13-96
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-31:29
+ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-31:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:17-81
+ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:17-81
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:25-78
+		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:25-78
 meta-data#firebase_messaging_auto_init_enabled
-ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:34:9-36:36
+ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:34:9-36:36
 	android:value
-		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:36:13-33
+		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:36:13-33
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-64
+		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-64
 meta-data#com.google.firebase.messaging.default_notification_channel_id
-ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:37:9-39:32
+ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:37:9-39:32
 	android:value
-		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-29
+		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-29
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-89
+		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-89
 meta-data#com.google.firebase.messaging.default_notification_color
-ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:40:9-42:47
+ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:40:9-42:47
 	android:resource
-		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:42:13-44
+		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:42:13-44
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-84
+		ADDED from [:react-native-firebase_messaging] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-84
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-81
-MERGED from [:react-native-share] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-81
-MERGED from [:react-native-share] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-81
+ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-81
+MERGED from [:react-native-share] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-81
+MERGED from [:react-native-share] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:22-78
+		ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:22-78
 provider#androidx.core.content.FileProvider
-ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:9-21:20
+ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:9-21:20
 	android:grantUriPermissions
-		ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-47
+		ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-47
 	android:authorities
-		ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-60
+		ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-60
 	android:exported
-		ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-37
+		ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-62
+		ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-20:58
+ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-20:58
 	android:resource
-		ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:17-55
+		ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:17-55
 	android:name
-		ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:17-67
+		ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:17-67
 activity#com.yalantis.ucrop.UCropActivity
-ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:23:9-25:72
+ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:23:9-25:72
 	android:theme
-		ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:13-69
+		ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:13-69
 	android:name
-		ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:13-60
+		ADDED from [:react-native-image-crop-picker] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:13-60
+activity#com.screenguard.ScreenGuardColorActivity
+ADDED from [:react-native-screenguard] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-screenguard/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:9-12:40
+	android:exported
+		ADDED from [:react-native-screenguard] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-screenguard/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [:react-native-screenguard] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-screenguard/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:13-68
 provider#cl.json.RNShareFileProvider
-ADDED from [:react-native-share] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+ADDED from [:react-native-share] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
 	android:grantUriPermissions
-		ADDED from [:react-native-share] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+		ADDED from [:react-native-share] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
 	android:authorities
-		ADDED from [:react-native-share] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-72
+		ADDED from [:react-native-share] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-72
 	android:exported
-		ADDED from [:react-native-share] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+		ADDED from [:react-native-share] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [:react-native-share] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-55
+		ADDED from [:react-native-share] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-55
 provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
-ADDED from [:react-native-webview] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+ADDED from [:react-native-webview] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
 	android:grantUriPermissions
-		ADDED from [:react-native-webview] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+		ADDED from [:react-native-webview] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
 	android:authorities
-		ADDED from [:react-native-webview] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-64
+		ADDED from [:react-native-webview] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-64
 	android:exported
-		ADDED from [:react-native-webview] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+		ADDED from [:react-native-webview] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [:react-native-webview] /Users/ajinkya/Desktop/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-83
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:25:5-82
-MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/156793912a70bf1565b8f729d2875170/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
-MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/156793912a70bf1565b8f729d2875170/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/560f02eb4879dd4292df069ecc8b32f8/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/560f02eb4879dd4292df069ecc8b32f8/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:25:22-79
-receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:28:9-35:20
-	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:30:13-36
-	android:permission
-		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:31:13-73
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:29:13-78
+		ADDED from [:react-native-webview] /Users/ajinkya/Desktop/Muskseed/MjSons/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-83
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:41:9-48:19
+ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/272c0b9c29f7ac06f4192e5f5298b1d2/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:28:9-35:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:44:13-37
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/272c0b9c29f7ac06f4192e5f5298b1d2/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:31:13-37
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:43:13-43
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/272c0b9c29f7ac06f4192e5f5298b1d2/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:30:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:42:13-82
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/272c0b9c29f7ac06f4192e5f5298b1d2/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:29:13-82
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:49:9-55:19
+ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/272c0b9c29f7ac06f4192e5f5298b1d2/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:36:9-42:19
 MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ce67a1ef11f176b465b582904959fed0/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:25:9-31:19
 MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ce67a1ef11f176b465b582904959fed0/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:25:9-31:19
-MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/156793912a70bf1565b8f729d2875170/jetified-firebase-iid-21.1.0/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/156793912a70bf1565b8f729d2875170/jetified-firebase-iid-21.1.0/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e76d99d94460f738cb5232679ab31bf8/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:27:9-33:19
-MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e76d99d94460f738cb5232679ab31bf8/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/371b50bd6844a69fe4afaa71eba29cce/jetified-firebase-installations-16.3.5/AndroidManifest.xml:15:9-21:19
 MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/371b50bd6844a69fe4afaa71eba29cce/jetified-firebase-installations-16.3.5/AndroidManifest.xml:15:9-21:19
 MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/7ca1ecc5fc5ad743dc73f8b625b32657/jetified-firebase-common-19.5.0/AndroidManifest.xml:33:9-46:19
 MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/7ca1ecc5fc5ad743dc73f8b625b32657/jetified-firebase-common-19.5.0/AndroidManifest.xml:33:9-46:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:51:13-37
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/272c0b9c29f7ac06f4192e5f5298b1d2/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:38:13-37
 	tools:targetApi
 		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/7ca1ecc5fc5ad743dc73f8b625b32657/jetified-firebase-common-19.5.0/AndroidManifest.xml:37:13-32
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/7ca1ecc5fc5ad743dc73f8b625b32657/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:50:13-84
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/272c0b9c29f7ac06f4192e5f5298b1d2/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:37:13-84
 meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
-ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:52:13-54:85
+ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/272c0b9c29f7ac06f4192e5f5298b1d2/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:39:13-41:85
 	android:value
-		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:54:17-82
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/272c0b9c29f7ac06f4192e5f5298b1d2/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:41:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/9ff62c3916238feabcd14c0ad485b8f2/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:53:17-119
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/272c0b9c29f7ac06f4192e5f5298b1d2/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:40:17-119
 meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
 ADDED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/ce67a1ef11f176b465b582904959fed0/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
 	android:value
@@ -732,25 +651,45 @@ ADDED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/ajinkya
 	android:name
 		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/117371cbaa60254c4f9b5cc6f71d5780/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:12:13-84
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39ad06bf8538a52115b76c02cb19bac2/jetified-play-services-auth-18.1.0/AndroidManifest.xml:23:9-27:75
+ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4aca5ebb8bc1aab19c7925eb2ab19adc/jetified-play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39ad06bf8538a52115b76c02cb19bac2/jetified-play-services-auth-18.1.0/AndroidManifest.xml:25:13-46
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4aca5ebb8bc1aab19c7925eb2ab19adc/jetified-play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39ad06bf8538a52115b76c02cb19bac2/jetified-play-services-auth-18.1.0/AndroidManifest.xml:26:13-37
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4aca5ebb8bc1aab19c7925eb2ab19adc/jetified-play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39ad06bf8538a52115b76c02cb19bac2/jetified-play-services-auth-18.1.0/AndroidManifest.xml:27:13-72
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4aca5ebb8bc1aab19c7925eb2ab19adc/jetified-play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39ad06bf8538a52115b76c02cb19bac2/jetified-play-services-auth-18.1.0/AndroidManifest.xml:24:13-93
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4aca5ebb8bc1aab19c7925eb2ab19adc/jetified-play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39ad06bf8538a52115b76c02cb19bac2/jetified-play-services-auth-18.1.0/AndroidManifest.xml:33:9-37:51
+ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4aca5ebb8bc1aab19c7925eb2ab19adc/jetified-play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39ad06bf8538a52115b76c02cb19bac2/jetified-play-services-auth-18.1.0/AndroidManifest.xml:35:13-36
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4aca5ebb8bc1aab19c7925eb2ab19adc/jetified-play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
 	android:visibleToInstantApps
-		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39ad06bf8538a52115b76c02cb19bac2/jetified-play-services-auth-18.1.0/AndroidManifest.xml:37:13-48
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4aca5ebb8bc1aab19c7925eb2ab19adc/jetified-play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39ad06bf8538a52115b76c02cb19bac2/jetified-play-services-auth-18.1.0/AndroidManifest.xml:36:13-107
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4aca5ebb8bc1aab19c7925eb2ab19adc/jetified-play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/39ad06bf8538a52115b76c02cb19bac2/jetified-play-services-auth-18.1.0/AndroidManifest.xml:34:13-89
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/4aca5ebb8bc1aab19c7925eb2ab19adc/jetified-play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/560f02eb4879dd4292df069ecc8b32f8/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/560f02eb4879dd4292df069ecc8b32f8/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/a8ac28166248c94668fa234199382f6c/jetified-firebase-iid-21.0.1/AndroidManifest.xml:38:13-78
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/21927a8180efebde93f368a3ac143faf/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
 	android:exported
@@ -759,18 +698,6 @@ ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/ajinkya/.gr
 		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/21927a8180efebde93f368a3ac143faf/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/21927a8180efebde93f368a3ac143faf/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/156793912a70bf1565b8f729d2875170/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
-	android:value
-		ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/156793912a70bf1565b8f729d2875170/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/156793912a70bf1565b8f729d2875170/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
-meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
-ADDED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e76d99d94460f738cb5232679ab31bf8/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:30:13-32:85
-	android:value
-		ADDED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e76d99d94460f738cb5232679ab31bf8/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:32:17-82
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/e76d99d94460f738cb5232679ab31bf8/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:31:17-139
 meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
 ADDED from [com.google.firebase:firebase-installations:16.3.5] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/371b50bd6844a69fe4afaa71eba29cce/jetified-firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
 	android:value
@@ -795,105 +722,9 @@ ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/ajinkya/.gradle/c
 		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/7ca1ecc5fc5ad743dc73f8b625b32657/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/7ca1ecc5fc5ad743dc73f8b625b32657/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
-uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
-ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/52e6436f5e1ed631b959e6f08ffc68ac/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/52e6436f5e1ed631b959e6f08ffc68ac/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:26:5-110
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:26:22-107
-receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:29:9-33:20
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:31:13-35
-	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:32:13-37
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:30:13-85
-service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:35:9-38:40
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:37:13-35
-	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:38:13-37
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:36:13-84
-service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:39:9-43:72
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:41:13-35
-	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:42:13-37
-	android:permission
-		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:43:13-69
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/8b23a490fdee54948e7115eebd237d9c/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:40:13-87
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:17.1.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/345ab3ac7d764c8b10080acb609ca770/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
 	android:value
 		ADDED from [com.google.android.gms:play-services-basement:17.1.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/345ab3ac7d764c8b10080acb609ca770/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:17.1.1] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/345ab3ac7d764c8b10080acb609ca770/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
-uses-permission#com.sec.android.provider.badge.permission.READ
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
-uses-permission#com.sec.android.provider.badge.permission.WRITE
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
-uses-permission#com.htc.launcher.permission.READ_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
-uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
-uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
-uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
-uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
-uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
-uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
-uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
-uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
-uses-permission#android.permission.READ_APP_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
-uses-permission#com.oppo.launcher.permission.READ_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
-uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
-uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
-uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/ajinkya/.gradle/caches/transforms-2/files-2.1/d3657ceb8a22086ddca45ade2500415a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
